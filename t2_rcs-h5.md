@@ -1,6 +1,6 @@
 # Bijlage 1: Definities 
 
-## Bouwdeel 
+<dfn>Bouwdeel</dfn>
 
 Uit materiaal bestaand inwendig element dat invulling geeft aan één of
 meer verlangde functies en tevens kan worden onderscheiden naar
