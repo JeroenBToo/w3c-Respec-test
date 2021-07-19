@@ -1,12 +1,12 @@
-# Bijlage 1: Definities 
+# Definities 
 
-## <dfn>Bouwdeel</dfn>
+<dfn>Bouwdeel</dfn>
 
 Uit materiaal bestaand inwendig element dat invulling geeft aan één of
 meer verlangde functies en tevens kan worden onderscheiden naar
 materiële samenstelling of constructiewijze.
 
-## Bouwlaag 
+<dfn>Bouwlaag</dfn> 
 
 Deel van een bouwwerk, dat bestaat uit één of meer ruimten, waarbij de
 bovenkanten van de afgewerkte vloeren of van het maaiveld van twee aan
