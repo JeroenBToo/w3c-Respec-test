@@ -1,0 +1,1153 @@
+<p><img src="media/image1.jpg" style="width:8.25in;height:11.66333in" /></p>
+<h1 class="list-paragraph" id="voorwoord">Voorwoord </h1>
+<p>Het Rijksvastgoedbedrijf is de vastgoedorganisatie van en voor de Rijksoverheid. Het</p>
+<p>Rijksvastgoedbedrijf is verantwoordelijk voor instandhouding en beheer van de grootste en meest diverse vastgoedportefeuille van Nederland. Het Rijksvastgoedbedrijf treedt vanuit zijn rol veelal op als eindopdrachtgever. Voor een adequaat beheer van de portefeuille is actuele vastgoedinformatie noodzakelijk. Vastgoedinformatie wordt vaak vastgelegd in tekeningen, naast andere wijzen van vastlegging. Bij nieuwbouw, verbouw, aankoop, aanhuur en onderhoud van bouwwerken worden tekeningen geraadpleegd en vervaardigd. Vooral tekeningen waarop de gerealiseerde situatie ter plaatse wordt weergegeven -technisch revisietekenwerk of 'as built'/’as is’/'as maintained' tekenwerk- zijn voor het Rijksvastgoedbedrijf van belang. Het Rijksvastgoedbedrijf stelt met deze CAD Specificatie<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> eisen aan dit technisch revisietekenwerk.</p>
+<p>Het Rijksvastgoedbedrijf behoudt zich het recht voor om in concrete gevallen aanvullende of afwijkende instructies (aanvullend of afwijkend ten opzichte van deze Specificatie) af te geven voor vervaardiging van technisch revisietekenwerk.</p>
+<p>Op diverse plaatsen in deze Specificatie wordt er verwezen naar externe normen. Als er in deze Specificatie aanvullende of afwijkende eisen (aanvullend of afwijkend ten opzichte van deze externe normen) worden gesteld dan gaan deze altijd vóór op het bepaalde in deze externe normen. De eisen zijn van toepassing op alle revisietekenwerk binnen een project en gelden voor alle disciplines. Als er voor een discipline aanvullende en/of afwijkende eisen gesteld worden, wordt dit specifiek aangegeven</p>
+<p><strong>Leeswijzer</strong></p>
+<p><img src="media/image2.png" style="width:3.08472in;height:2.91944in" />Technisch revisietekenwerk wordt geleverd in een CAD-bestand. CAD-bestanden zijn te beschrijven in vier dimensies: structuur, inhoud, visualisatie en opslag. Bij structuur gaat het om de samenhang, en daarmee de betekenis, van de entiteiten aangebracht binnen een CAD-bestand. Bij inhoud gaat het om het vastleggen van de werkelijkheid met behulp van deze gestructureerde en betekenisvolle entiteiten. Bij visualisatie gaat het om de vertaling van de aangebrachte inhoud en structuur in een CAD-bestand naar een ander medium voor ter beschikkingstelling van de informatie. Bij opslag gaat het om de opslag van een CAD-bestand. Voor elke dimensie zijn er in deze Specificatie eisen opgesteld.</p>
+<p>De hoofdstukken 1 tot en met 4 beschrijven de eisen voor technisch revisietekenwerk met betrekking tot deze vier dimensies. In de bijlagen komen achtereenvolgend definities, tekeningenlijst en normenoverzicht aan bod.</p>
+<h1 class="list-paragraph" id="inhoudsopgave">Inhoudsopgave </h1>
+<p><a href="#voorwoord">Voorwoord 3</a></p>
+<p><a href="#inhoudsopgave">Inhoudsopgave 4</a></p>
+<p><a href="#structuur">1 Structuur 6</a></p>
+<p><a href="#cad-bestanden">1.1 CAD-bestanden 6</a></p>
+<p><a href="#bestandsformaat">1.1.1 Bestandsformaat 6</a></p>
+<p><a href="#database-koppelingen">1.1.2 Database koppelingen 6</a></p>
+<p><a href="#systeemvariabelen">1.1.3 Systeemvariabelen 6</a></p>
+<p><a href="#levering-bronbestanden">1.2 Levering bronbestanden 6</a></p>
+<p><a href="#basisprincipes-voor-technisch-revisietekenwerk">1.3 Basisprincipes voor technisch revisietekenwerk 7</a></p>
+<p><a href="#projectievlak">1.3.1 Projectievlak 7</a></p>
+<p><a href="#plattegronden">1.3.2 Plattegronden 11</a></p>
+<p><a href="#doorsneden">1.3.3 Doorsneden 11</a></p>
+<p><a href="#gevels">1.3.4 Gevels 11</a></p>
+<p><a href="#entiteiten-getekend-in-het-wcs">1.3.5 Entiteiten getekend in het <em>WCS</em> 11</a></p>
+<p><a href="#informatiescheiding-met-behulp-van-layers">1.4 Informatiescheiding met behulp van <em>layers</em> 11</a></p>
+<p><a href="#layout-tabs">1.5 <em>Layout tabs</em> 12</a></p>
+<p><a href="#gebruik-van-layout-tabs">1.5.1 Gebruik van <em>layout tabs</em> 12</a></p>
+<p><a href="#naamgeving-van-layout-tabs">1.5.2 Naamgeving van <em>layout tabs</em> 12</a></p>
+<p><a href="#paperspace">1.6 <em>Paperspace</em> 12</a></p>
+<p><a href="#tekeningkader-en-titelblok">1.6.1 Tekeningkader en titelblok 12</a></p>
+<p><a href="#gebruik-van-blocks">1.6.2 Gebruik van <em>blocks</em> 12</a></p>
+<p><a href="#naamgeving-van-blocks"><em>1.6.3</em> Naamgeving van <em>blocks</em> 12</a></p>
+<p><a href="#gebruik-van-external-references">1.6.4 Gebruik van <em>external references</em> 12</a></p>
+<p><a href="#tekeninggebonden-tekst">1.6.5 Tekeninggebonden tekst 13</a></p>
+<p><a href="#modelspace">1.7 <em>Modelspace</em> 13</a></p>
+<p><a href="#gebruik-van-blocks-1">1.7.1 Gebruik van <em>blocks</em> 13</a></p>
+<p><a href="#naamgeving-van-blocks-1"><em>1.7.2</em> Naamgeving van <em>blocks</em> 13</a></p>
+<p><a href="#gebruik-van-external-references-1">1.7.3 Gebruik van <em>external references</em> 13</a></p>
+<p><a href="#positie-bouwwerk">1.7.4 Positie bouwwerk 13</a></p>
+<p><a href="#stramien">1.7.5 Stramien 13</a></p>
+<p><a href="#hoogtematen">1.7.6 Hoogtematen 13</a></p>
+<p><a href="#maataanduiding">1.7.7 Maataanduiding 13</a></p>
+<p><a href="#bouwwerkgebonden-tekst">1.7.8 Bouwwerkgebonden tekst 13</a></p>
+<p><a href="#tekeningsoort">1.8 Tekeningsoort 13</a></p>
+<p><a href="#detailleringniveau">1.9 Detailleringniveau 14</a></p>
+<p><a href="#nauwkeurigheid">1.10 Nauwkeurigheid 14</a></p>
+<p><a href="#bouwlaagaanduiding">1.11 Bouwlaagaanduiding 14</a></p>
+<p><a href="#constructie-discipline">1.12 Constructie (discipline) 14</a></p>
+<p><a href="#bouwkunde-discipline">1.13 Bouwkunde (discipline) 14</a></p>
+<p><a href="#werktuigbouw-discipline">1.14 Werktuigbouw (discipline) 14</a></p>
+<p><a href="#elektrotechniek-discipline">1.15 Elektrotechniek (discipline) 14</a></p>
+<p><a href="#terrein-discipline">1.16 Terrein (discipline) 15</a></p>
+<p><a href="#brandveiligheid-aspect">1.17 Brandveiligheid (aspect) 15</a></p>
+<p><a href="#beveiliging-aspect">1.18 Beveiliging (aspect) 15</a></p>
+<p><a href="#inhoud">2 Inhoud 16</a></p>
+<p><a href="#basiseisen-voor-inhoud">2.1 Basiseisen voor inhoud 16</a></p>
+<p><a href="#constructie-discipline-1">2.2 Constructie (discipline) 16</a></p>
+<p><a href="#bouwkunde-discipline-1">2.3 Bouwkunde (discipline) 17</a></p>
+<p><a href="#basis-bouwdeelniveau-bouwkunde">2.3.1 Basis bouwdeelniveau Bouwkunde 17</a></p>
+<p><a href="#stramien-1">2.3.2 Stramien 17</a></p>
+<p><a href="#hoogtematen-1">2.3.3 Hoogtematen 17</a></p>
+<p><a href="#maataanduiding-1">2.3.4 Maataanduiding 17</a></p>
+<p><a href="#ruimtenaam">2.3.5 Ruimtenaam 17</a></p>
+<p><a href="#ruimtecode">2.3.6 Ruimtecode 17</a></p>
+<p><a href="#werktuigbouw-discipline-1">2.4 Werktuigbouw (discipline) 17</a></p>
+<p><a href="#elektrotechniek-discipline-1">2.5 Elektrotechniek (discipline) 18</a></p>
+<p><a href="#terrein-discipline-1">2.6 Terrein (discipline) 18</a></p>
+<p><a href="#brandveiligheid-aspect-1">2.7 Brandveiligheid (aspect) 18</a></p>
+<p><a href="#beveiliging-aspect-1">2.8 Beveiliging (aspect) 18</a></p>
+<p><a href="#visualisatie">3 Visualisatie 19</a></p>
+<p><a href="#basiseisen-voor-visualisatie">3.1 Basiseisen voor visualisatie 19</a></p>
+<p><a href="#tekeningformaat">3.2 Tekeningformaat 19</a></p>
+<p><a href="#vouwen">3.3 Vouwen 19</a></p>
+<p><a href="#lijnen">3.4 Lijnen 19</a></p>
+<p><a href="#lijnsoorten-en-lijnsymbolen">3.4.1 Lijnsoorten en lijnsymbolen 19</a></p>
+<p><a href="#lijndikten">3.4.2 Lijndikten 19</a></p>
+<p><a href="#pentabel">3.4.3 Pentabel 19</a></p>
+<p><a href="#afwijkende-linetypes">3.4.4 Afwijkende <em>linetypes</em> 19</a></p>
+<p><a href="#arceringen">3.5 Arceringen 20</a></p>
+<p><a href="#schrift">3.6 Schrift 20</a></p>
+<p><a href="#schaal">3.7 Schaal 20</a></p>
+<p><a href="#oriëntatie">3.8 Oriëntatie 20</a></p>
+<p><a href="#ordening-van-afbeeldingen">3.9 Ordening van afbeeldingen 20</a></p>
+<p><a href="#symbolische-informatie">3.10 Symbolische informatie 20</a></p>
+<p><a href="#maatvoering">3.11 Maatvoering 20</a></p>
+<p><a href="#hoogtematen-2">3.11.1 Hoogtematen 20</a></p>
+<p><a href="#maataanduiding-2">3.11.2 Maataanduiding 20</a></p>
+<p><a href="#geschreven-informatie">3.12 Geschreven informatie 20</a></p>
+<p><a href="#tekeningkader">3.13 Tekeningkader 21</a></p>
+<p><a href="#titelblok">3.14 Titelblok 21</a></p>
+<p><a href="#renvooi">3.15 Renvooi 21</a></p>
+<p><a href="#overzichttekening">3.16 Overzichttekening 21</a></p>
+<p><a href="#opslag">4 Opslag 22</a></p>
+<p><a href="#basiseisen-voor-opslag">4.1 Basiseisen voor opslag 22</a></p>
+<p><a href="#mappenstructuur">4.2 Mappenstructuur 22</a></p>
+<p><a href="#bestandsnaam">4.3 Bestandsnaam 23</a></p>
+<p><a href="#bestandsgrootte">4.4 Bestandsgrootte 23</a></p>
+<p><a href="#titelblok-1">4.5 Titelblok 23</a></p>
+<p><a href="#bijlage-1-definities">Bijlage 1: Definities 24</a></p>
+<p><a href="#bouwdeel">Bouwdeel 24</a></p>
+<p><a href="#bouwlaag">Bouwlaag 24</a></p>
+<p><a href="#bouwwerk">Bouwwerk 24</a></p>
+<p><a href="#bouwwerkgebonden-entiteiten">Bouwwerkgebonden entiteiten 24</a></p>
+<p><a href="#cad-bestand">CAD-bestand 24</a></p>
+<p><a href="#entiteit">Entiteit 24</a></p>
+<p><a href="#entiteitkenmerk">Entiteitkenmerk 24</a></p>
+<p><a href="#external-reference"><em>External reference</em> 24</a></p>
+<p><a href="#gebouw">Gebouw 24</a></p>
+<p><a href="#inwendig-element">Inwendig element 25</a></p>
+<p><a href="#omgevingselement">Omgevingselement 25</a></p>
+<p><a href="#ruimte">Ruimte 25</a></p>
+<p><a href="#ruimtelijk-object">Ruimtelijk object 25</a></p>
+<p><a href="#rvb">RVB 25</a></p>
+<p><a href="#rvb-objectrvb-gebouw">RVB-object/RVB-gebouw 25</a></p>
+<p><a href="#technisch-revisietekenwerk">Technisch revisietekenwerk 25</a></p>
+<p><a href="#tekening">Tekening 25</a></p>
+<p><a href="#tekeninggebonden-entiteiten">Tekeninggebonden entiteiten 25</a></p>
+<p><a href="#titelblok-2">Titelblok 25</a></p>
+<p><a href="#bijlage-2-tekeningenlijst">Bijlage 2: Tekeningenlijst 26</a></p>
+<p><a href="#bijlage-3-normenoverzicht">Bijlage 3: Normenoverzicht 29</a></p>
+<h1 id="structuur">Structuur </h1>
+<h2 id="cad-bestanden">CAD-bestanden </h2>
+<h3 id="bestandsformaat">Bestandsformaat </h3>
+<p>Technisch revisietekenwerk wordt geleverd in een bestandsformaat dat geopend, bewerkt en opgeslagen kan worden met het programma AutoCAD<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>: het dwg-bestandsformaat (dwg-formaat). Bij deze handelingen in dit softwarepakket mag er geen foutmelding optreden of informatie verloren gaan. Afzonderlijk herkenbare entiteiten zijn in dit bestand ook als zodanig gedefinieerd en door dit softwarepakket herkenbaar, zonder dat daar extra verticale applicaties op zijn geïnstalleerd</p>
+<p>(bijvoorbeeld: tekst is <em>text</em>,<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> lijnen zijn <em>lines</em> of <em>polylines</em>, arceringen zijn <em>hatches</em>, maatvoeringen zijn <em>dimensions</em> en cirkels zijn <em>circles</em>). Verder voldoen de bestanden aan de volgende voorwaarden:</p>
+<ul>
+<li><p>de bestanden zijn altijd gebaseerd op een metrisch <em>template</em>;</p></li>
+<li><p>de bestanden zijn niet beveiligd door gebruik te maken van enige vorm van encryptie;</p></li>
+<li><p>de bestanden bevatten geen ‘OLE-objecten’;</p></li>
+<li><p>de bestanden bevatten geen <em>dictionaries</em>, behalve die door AutoCAD zélf automatisch worden gegenereerd;</p></li>
+<li><p>de bestanden bevatten geen gerasterde entiteiten<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>;</p></li>
+<li><p>de bestanden bevatten geen, in het bestand geïntegreerde, <em>LISP-</em> of <em>VBA</em>-routines;</p></li>
+<li><p>de bestanden bevatten geen entiteiten waaraan ‘hyperlinks’ gekoppeld zijn;</p></li>
+<li><p>de bestanden bevatten geen entiteiten gegenereerd en ondersteund door <em>ObjectARX</em>-applicaties<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> (of: <em>proxy</em>-objecten), anders dan door AutoCAD zèlf automatisch gegenereerde (informatie over deze ‘add-ons’ is niet aanwezig en de samengestelde objecten zijn correct vertaald naar AutoCADbasisentiteiten en de koppeling naar de gebruikte ‘add-on’ is verbroken).</p></li>
+</ul>
+<h3 id="database-koppelingen">Database koppelingen </h3>
+<p>De CAD-bestanden<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> voor technisch revisietekenwerk bevatten geen koppelingen naar externe databases<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a>. Alle restinformatie binnen deze CAD-bestanden, als gevolg van dergelijke 'databaseconnectivity' uit het verleden, is niet meer aanwezig.</p>
+<h3 id="systeemvariabelen">Systeemvariabelen </h3>
+<p>Binnen elk CAD-bestand zijn er <em>system variables</em> vastgelegd. Deze systeemvariabelen zijn van invloed op diverse onderdelen binnen deze bestanden. De systeemvariabelen hebben de waarden volgens de onderstaande tabel.</p>
+<table>
+<colgroup>
+<col style="width: 54%" />
+<col style="width: 45%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><em><strong>VARIABELE</strong></em></th>
+<th><blockquote>
+<p><em><strong>WAARDE</strong></em></p>
+</blockquote></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>LUNITS</td>
+<td><blockquote>
+<p>2</p>
+</blockquote></td>
+</tr>
+<tr class="even">
+<td>LWDISPLAY</td>
+<td><blockquote>
+<p>OFF</p>
+</blockquote></td>
+</tr>
+<tr class="odd">
+<td>MEASUREMENT</td>
+<td><blockquote>
+<p>1</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
+<h2 id="levering-bronbestanden">Levering bronbestanden </h2>
+<p>Volgens deze CAD Specificatie worden primair eisen gesteld aan door de vervaardiger te leveren dwgen bijbehorende pdf-bestanden) . In het geval deze bestanden zijn vervaardigd als extract uit bronbestanden geopend, bewerkt en opgeslagen in software waarin het dwg-bestandsformaat niet het eigen bestandsformaat is (bijvoorbeeld een BIM modelleerapplicatie), dan worden de desbetreffende bronbestanden meegeleverd mét de beschrijving van de wijze waarop deze extracten uit de bronbestanden zijn gegenereerd.</p>
+<h2 id="basisprincipes-voor-technisch-revisietekenwerk">Basisprincipes voor technisch revisietekenwerk </h2>
+<p>Technisch revisietekenwerk bestaat uit tweedimensionaal (2D) tekenwerk. In deze paragraaf wordt nader ingegaan op de basisprincipes van 2D-tekenwerk volgens deze Specificatie.</p>
+<h3 id="projectievlak">Projectievlak </h3>
+<p>Bij het tweedimensionaal tekenen wordt gebruik gemaakt van een projectievlak<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a>. Het projectievlak is een virtueel vlak binnen of buiten een bouwwerk waarin bouwdelen loodrecht geprojecteerd worden. In het <em>WCS</em> in het CAD-bestand worden deze loodrechte projecties van bouwdelen getekend. In het tekenwerk wordt uitsluitend gebruik gemaakt van horizontale (bijvoorbeeld plattegronden) en verticale projectievlakken (bijvoorbeeld doorsneden en gevels). Ten opzichte van het projectievlak zijn er voor ieder bouwdeel drie mogelijke posities:</p>
+<ol type="1">
+<li><p><u>Achter/onder</u> het projectievlak: het componentaanzicht;</p></li>
+<li><p><u>In</u> het projectievlak: de componentdoorsnijding;</p></li>
+<li><p><u>Voor/boven</u> het projectievlak: de componentprojectie.</p></li>
+</ol>
+<p>In een CAD-bestand is de positie van het projectievlak gedefinieerd en de positie van componentaanzichten, -doorsnijdingen en -projecties ten opzichte van dit projectievlak ondubbelzinnig afleesbaar.</p>
+<p>Ter illustratie van dit basisprincipe wordt als voorbeeld de plattegrond van de bovenste bouwlaag van een bouwwerk met een traditionele kapconstructie gebruikt. Hieronder wordt een 3D-model van de kap van het bouwwerk getoond en worden het bouwdeelaanzicht, de -doorsnijding en de -projectie in de daarbij horende plattegrond getoond in de figuren 1, 2 en 3.</p>
+<blockquote>
+<p><img src="media/image3.jpg" style="width:6.53743in;height:4.26623in" /></p>
+</blockquote>
+<p><em>Figuur 1: 3D-model van een kap</em></p>
+<p><img src="media/image6.jpg" style="width:4.68681in;height:9.42301in" /><em>Figuur 2: projectievlak aangebracht: lichtgroen vlak voor bouwdeeldoorsnijding, roze voor bouwdeelprojectie.</em></p>
+<p><img src="media/image8.jpg" style="width:6.56736in;height:8.86597in" /></p>
+<p><em>Figuur 3: projectievlak aangebracht: lichtgeel vlak voor bouwdeelaanzicht, lichtgroen voor bouwdeeldoorsnijding, roze voor bouwdeelprojectie.</em></p>
+<p>Om in het CAD-bestand -en in de daarin aanwezige tekeningen- de positie van bouwdelen ten opzichte van het projectievlak duidelijk herkenbaar te maken, wordt er gebruik gemaakt van verschillende combinaties van lijndikte, lijntype en arcering volgens de onderstaande tabel:</p>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 33%" />
+<col style="width: 21%" />
+<col style="width: 18%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><em><strong>positie</strong></em></th>
+<th><em><strong>lijndikte</strong></em></th>
+<th><blockquote>
+<p><em><strong>lijntype</strong></em></p>
+</blockquote></th>
+<th><em><strong>hatch</strong></em></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>bouwdeelaanzicht</td>
+<td>kleiner dan doorsnijding</td>
+<td><blockquote>
+<p>getrokken lijn</p>
+</blockquote></td>
+<td>nee</td>
+</tr>
+<tr class="even">
+<td>bouwdeeldoorsnijding</td>
+<td>groter dan aanzicht en projectie</td>
+<td><blockquote>
+<p>getrokken lijn</p>
+</blockquote></td>
+<td><em>ja</em></td>
+</tr>
+<tr class="odd">
+<td>bouwdeelprojectie</td>
+<td>kleiner dan doorsnijding</td>
+<td><blockquote>
+<p>gestippeld</p>
+</blockquote></td>
+<td>nee</td>
+</tr>
+</tbody>
+</table>
+<p><em>Tabel 1: lijndikte, lijntype en arcering gekoppeld aan positie van bouwdelen ten opzichte van het projectievlak</em></p>
+<blockquote>
+<p><img src="media/image9.png" style="width:6.47in;height:7.25667in" /></p>
+</blockquote>
+<p><em>Figuur 4: bouwdeelaanzicht (binnen gele uitsnede), bouwdeeldoorsnijding (groene uitsnede) en bouwdeelprojectie (rode uitsnede) gesuperposeerd in één plattegrond (binnen grijze uitsnede).</em></p>
+<h3 id="plattegronden">Plattegronden </h3>
+<p>Plattegronden worden in beginsel beschouwd als een horizontale doorsnede op 1200 mm boven het vloerpeil van de desbetreffende bouwlaag<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a>. Deze doorsnede is het projectievlak als bedoeld in § 1.3.1 Projectievlak. CAD-bestanden met plattegronden moeten aan de volgende voorwaarden voldoen:</p>
+<ul>
+<li><p>elk CAD-bestand bevat slechts informatie met betrekking tot één bouwlaag;</p></li>
+<li><p>bouwdeelaanzichten behorend bij de desbetreffende bouwlaag van een plattegrond worden volledig en gedetailleerd getekend (conform § 1.9 Detailleringniveau);</p></li>
+<li><p>zichtbare bouwdeelaanzichten behorend bij lager gelegen bouwlagen, worden schematisch getekend in een -bij visualisatie- dunne lijn;</p></li>
+<li><p>in de plattegronden moet het projectievlak van aanwezige verticale doorsneden worden aangegeven met behulp van een doorsnedenaanduiding (bestaande uit een lijn die het projectievlak aangeeft, kijkrichting en een resulterende tweelettercode: bijvoorbeeld AA, BB enzovoort, hier staat A aan het begin van de lijn en A aan het eind van de lijn, steeds met een pijl die de kijkrichting aangeeft).</p></li>
+</ul>
+<h3 id="doorsneden">Doorsneden </h3>
+<p>Doorsneden worden beschouwd en getekend als een verticale doorsnede over een deel van het bouwwerk<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a>. Deze verticale doorsnede is het projectievlak. Doorsneden moeten corresponderen met plattegronden en gevels en vice versa. Eventueel aanwezige gevels van delen van het bouwwerk in dit projectievlak moeten worden getekend conform de eisen voor gevels.<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a> In de bijbehorende plattegronden en doorsneden moet dit projectievlak worden aangegeven met behulp van een doorsnedenaanduiding (bestaande uit een lijn die het projectievlak aangeeft, kijkrichting en een resulterende tweelettercode: bijvoorbeeld AA, BB enzovoort, hier staat A aan het begin van de lijn en A aan het eind van de lijn, steeds met een pijl die de kijkrichting aangeeft).</p>
+<h3 id="gevels">Gevels </h3>
+<p>Gevels worden beschouwd en getekend als een verticaal aanzicht van een deel van het bouwwerk. Dit verticale aanzicht is het projectievlak. Gevels moeten corresponderen met plattegronden en doorsneden en vice versa. Gevelaanzichten worden in beginsel getekend als loodrechte projecties van gevels op dit projectievlak. Eventueel aanwezige doorsneden van delen van het bouwwerk in dit projectievlak moeten worden getekend conform de eisen voor doorsneden.<a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a></p>
+<h3 id="entiteiten-getekend-in-het-wcs">Entiteiten getekend in het <em>WCS</em> </h3>
+<p>Er worden in het projectievlak slechts één- en tweedimensionale entiteiten getekend met een <em>elevation</em>, Z-waarde en een <em>thickness</em> van 0 (nul) in het <em>World Coördinate System</em> (<em>WCS</em>). Het tekenen van twee of meer exact dezelfde entiteiten op dezelfde positie in het <em>WCS</em> is niet toegestaan.</p>
+<p>Voor visualisatiedoeleinden wordt slechts gebruik gemaakt van onderscheid in de eigenschappen <em>color</em> (dikte van lijnen wordt slechts gedefinieerd middels koppeling van lijndikten/pennen aan een specifieke <em>color</em>) en <em>linetype</em> óf van onderscheid in <em>lineweight</em> en <em>linetype</em>.</p>
+<h2 id="informatiescheiding-met-behulp-van-layers">Informatiescheiding met behulp van <em>layers</em> </h2>
+<p>Binnen een CAD-bestand moet informatie gescheiden worden. Dit vindt plaats door verschillend geclassificeerde entiteiten te tekenen in verschillende <em>layers</em>. Aan het gebruik van <em>layers</em> worden de volgende basiseisen gesteld:</p>
+<ul>
+<li><p>de loodrechte projecties van bouwdelen in het projectievlak worden getekend in verschillende <em>layers;</em></p></li>
+<li><p>de naam van de <em>layers</em> voor het tekenen van bouwdelen bevat de eerste twee cijfers van de</p></li>
+</ul>
+<blockquote>
+<p>NL/SfB elementcode (zonder haakje) van de elementgroep waartoe het bouwdeel behoort én de bijbehorende omschrijving, dit met de volgende syntax: [NL/SfB elementcode][spatie][NL/SfB omschrijving] (de elementgroepen zijn gedefinieerd in tabel 1 van de publicatie ‘NL/SfB tabellen 2005 inclusief herziene elementenmethode '91'<a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a>), de omschrijving bevat geen bijzondere karakters anders dan '-' (afbreekstreepje) of '_' (laag liggend streepje);</p>
+</blockquote>
+<ul>
+<li><p>er mogen geen <em>layers</em> voorkomen waarbinnen zich geen entiteiten bevinden (geen ‘lege’ <em>layers</em>), met uitzondering van <em>layer</em> <strong>0</strong> (nul);</p></li>
+<li><p>in <em>layer</em> <strong>0</strong> (nul) mogen zich geen entiteiten bevinden anders dan meervoudige <em>blocks, viewports</em> of <em>external references</em>;</p></li>
+<li><p>entiteiten worden slechts geplaatst in de daarvoor bedoelde <em>layers</em>;</p></li>
+<li><p>in <em>layer</em> <strong>defpoints</strong> worden geen entiteiten geplaatst, anders dan de (hulp-)entiteiten die</p></li>
+</ul>
+<p>AutoCAD automatisch genereert in deze <em>layer</em> bij het tekenen van bijvoorbeeld een <em>dimension</em>;  bij oplevering van CAD-bestanden moet <em>layer</em> <strong>0</strong> (nul) ingesteld worden als <em>current layer</em>.</p>
+<h2 id="layout-tabs"><em>Layout tabs</em> </h2>
+<h3 id="gebruik-van-layout-tabs">Gebruik van <em>layout tabs</em> </h3>
+<p>Binnen een CAD-bestand kunnen er verschillende <em>layout tabs</em> aangemaakt worden. Het gebruik van <em>layout tabs</em> is aan de volgende regels gebonden:</p>
+<ul>
+<li><p>voor alle <em>layout tabs</em> geldt: 1 <em>drawing unit</em> = 1 millimeter;</p></li>
+<li><p>binnen <em>modelspace</em> worden entiteiten altijd met schaal 1:1 getekend;</p></li>
+<li><p>bouwwerkgebonden entiteiten worden uitsluitend geplaatst in <em>modelspace</em> (in de <em>layout tab</em></p></li>
+</ul>
+<blockquote>
+<p><em>Model</em>); tekeninggebonden entiteiten komen hier niet in voor;</p>
+</blockquote>
+<ul>
+<li><p>tekeninggebonden entiteiten worden uitsluitend geplaatst in <em>paperspace</em>; bouwwerkgebonden entiteiten komen hier niet in voor;</p></li>
+<li><p>binnen een CAD-bestand is tenminste één tekening gedefinieerd;</p></li>
+<li><p>binnen een <em>layout tab</em> (anders dan de <em>layout tab</em> <em>Model</em>) is er maximaal één tekening gedefinieerd.</p></li>
+</ul>
+<h3 id="naamgeving-van-layout-tabs">Naamgeving van <em>layout tabs</em> </h3>
+<p>Er worden geen eisen gesteld aan de naamgeving van <em>layout-tabs</em>.</p>
+<h2 id="paperspace"><em>Paperspace</em> </h2>
+<h3 id="tekeningkader-en-titelblok">Tekeningkader en titelblok </h3>
+<p>Een tekening wordt uitsluitend geplaatst in een layout-tab in de <em>paperspace</em> van een CAD-bestand, deze <em>layout tabs</em> bevatten elk slechts één tekening. Binnen een CAD-bestand is tenminste één tekening gedefinieerd. In een tekening zijn binnen het tekeningkader één of meer viewports gedefinieerd waarbinnen (al dan niet verschaald) de <em>modelspace</em> zichtbaar is. Een CAD-bestand waarin meerdere tekeningen zijn gedefinieerd heeft betrekking op slechts één discipline of aspect. Als er meerdere tekeningen gedefinieerd zijn binnen een CAD-bestand, dan hebben alle tekeningen in het titelblok één hoofdonderwerp<a href="#fn14" class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a> wat de inhoud van alle tekeningen beschrijft. Naast het hoofdonderwerp heeft elke tekening een sub-onderwerp wat de inhoud van de individuele tekening beschrijft.</p>
+<h3 id="gebruik-van-blocks">Gebruik van <em>blocks</em> </h3>
+<p>Gebruik en plaatsing van <em>blocks</em> in de <em>paperspace</em> van een CAD-bestand is toegestaan. Slechts verzamelingen van entiteiten die meer dan één keer voorkomen in het revisietekenwerk binnen één project mogen worden gedefinieerd als een <em>block</em>.</p>
+<h3 id="naamgeving-van-blocks">Naamgeving van <em>blocks</em> </h3>
+<p>Namen van <em>blocks</em> zijn gesteld in de Nederlandse of Engelse taal.</p>
+<h3 id="gebruik-van-external-references">Gebruik van <em>external references</em> </h3>
+<p>Gebruik van <em>external references</em> in de <em>paperspace</em> van een CAD-bestand is niet toegestaan.</p>
+<h3 id="tekeninggebonden-tekst">Tekeninggebonden tekst </h3>
+<p>Tekeninggebonden tekst wordt geplaatst in een daarvoor geëigende <em>layer</em>.</p>
+<h2 id="modelspace"><em>Modelspace</em> </h2>
+<h3 id="gebruik-van-blocks-1">Gebruik van <em>blocks</em> </h3>
+<p>Gebruik en plaatsing van <em>blocks</em> in de <em>modelspace</em> van een CAD-bestand is toegestaan. Slechts verzamelingen van entiteiten die meer dan één keer voorkomen in het revisietekenwerk binnen één project mogen worden gedefinieerd als een <em>block</em>.</p>
+<h3 id="naamgeving-van-blocks-1">Naamgeving van <em>blocks</em> </h3>
+<p>Namen van blocks zijn gesteld in de Nederlandse of Engelse taal.</p>
+<h3 id="gebruik-van-external-references-1">Gebruik van <em>external references</em> </h3>
+<p>Gebruik van <em>external references</em> moet voldoen aan alle volgende voorwaarden:</p>
+<ul>
+<li><p>een <em>external reference</em> is altijd een bestand binnen de discipline Bouwkunde met een plattegrond,</p></li>
+<li><p>er zijn geen <em>external references</em> waarbinnen geen tekening is gedefinieerd;</p></li>
+<li><p>relaties met <em>external reference</em>-bestanden in <em>master</em>-bestanden zijn altijd van het type <em>attached</em><a href="#fn15" class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a>, een <em>external reference</em> is altijd een <em>attached reference</em>;</p></li>
+<li><p>het ‘saved path’ in <em>master</em>-bestanden naar een <em>external reference</em>–bestand bevat alleen de bestandsnaam van het een <em>external reference</em>–bestand;</p></li>
+<li><p>er ontstaat geen kringverwijzing in CAD-bestanden behorend tot de verzameling revisietekenwerkbestanden onder één project;</p></li>
+<li><p><em>Een external reference</em> wordt altijd geplaatst in <em>layer</em> <strong>0</strong> (nul).</p></li>
+</ul>
+<h3 id="positie-bouwwerk">Positie bouwwerk </h3>
+<p>Het getekende bouwwerk in een CAD-bestand bevindt zich volledig binnen het 1e kwadrant van het <em>WCS</em>, met de linker onderhoek van het bouwwerk nabij de oorsprong.</p>
+<h3 id="stramien">Stramien </h3>
+<p>Voor het definiëren van stramienen in een tekening is NEN 2302:1983 (§ 4.1) van toepassing.</p>
+<h3 id="hoogtematen">Hoogtematen </h3>
+<p>Voor het aangeven van hoogtematen in een tekening is NEN 2302:1983 van toepassing (§ 5.3.2), tenzij elders binnen deze Specificatie anders of specifieker is omschreven. Hoogtematen worden gesteld in millimeters. Hoogtematen worden altijd aangegeven in millimeters boven (+) of onder (-) het vastgestelde peil. Hoogtematen van bovenzijden<a href="#fn16" class="footnote-ref" id="fnref16" role="doc-noteref"><sup>16</sup></a> van horizontale vlakken worden in deze Specificatie peilmaat genoemd.</p>
+<h3 id="maataanduiding">Maataanduiding </h3>
+<p>Voor maataanduidingen binnen CAD-bestanden mag geen gebruik gemaakt worden van <em>text overrides</em> om, bijvoorbeeld, maatafwijkingen in getekende bouwdelen te corrigeren. Het veld <em>text override</em> in de <em>properties-toolbar</em> (bij selectie van een <em>dimension</em>) moet leeg zijn. Voor de tekenwijze van maataanduidingen in een tekening is, tenzij elders binnen deze Specificatie anders of specifieker omschreven, NEN 2302:1983 (hoofdstuk 5; inclusief de in 5.1.1 aangegeven voorkeuren) van toepassing.</p>
+<h3 id="bouwwerkgebonden-tekst">Bouwwerkgebonden tekst </h3>
+<p>Bouwwerkgebonden tekst wordt geplaatst in een <em>layer</em> voor tekst behorend bij de desbetreffende NL/SfB elementcode,</p>
+<h2 id="tekeningsoort">Tekeningsoort </h2>
+<p>Technisch revisietekenwerk is opgebouwd conform NPR 2570:1986, hoofdstuk 2 en kan bestaan uit de tekeningsoorten zoals gedefinieerd in NPR 2570:1986, hoofdstuk 2.</p>
+<h2 id="detailleringniveau">Detailleringniveau </h2>
+<p>Het detailleringniveau van technisch revisietekenwerk moet minimaal voldoen aan de eisen voor tekenwerk uit de fase 'bestek' zoals gedefinieerd in NEN 2574:1993, tenzij elders binnen deze Specificatie anders of specifieker omschreven.</p>
+<h2 id="nauwkeurigheid">Nauwkeurigheid </h2>
+<p>Bouwdelen worden volledig, nauwkeurig en herkenbaar getekend en gerepresenteerd met behulp van entiteiten.</p>
+<p>Entiteiten die bouwdelen representeren die binnen het bouwwerk aanliggend of opliggend zijn, dienen ook zodanig getekend te zijn binnen het CAD-bestand: bij een vergrotingsfactor van 1000 dienen dergelijke entiteiten nog steeds aanliggend of opliggend te zijn en bij herhaald gebruik van de <em>object snap</em> functies dient steeds hetzelfde snapresultaat te ontstaan.</p>
+<p>Entiteiten die bouwdelen representeren die binnen bouwwerken loodrecht ten opzichte van elkaar gepositioneerd zijn, dienen ook zodanig getekend te zijn binnen het CAD-bestand: na bijtekenen van loodrechte hulplijnen op het (denkbeeldige) snijpunt van de entiteiten dienen bij een vergrotingsfactor van 1000 dergelijke entiteiten en de hulplijnen nog steeds aanliggend of opliggend te zijn en bij herhaald gebruik van de <em>object snap</em> functies dient steeds hetzelfde snapresultaat te ontstaan.</p>
+<h2 id="bouwlaagaanduiding">Bouwlaagaanduiding </h2>
+<p>Aanduiding van bouwlagen vindt op zodanige wijze plaats dat ondubbelzinnig duidelijk is hoe de verschillende bouwlagen in een bouwwerk ten opzichte van elkaar gelegen zijn in verticale zin. Dit gebeurt met de aanduiding &lt;Bouwlaagnummer&gt;&lt;spatie&gt;&lt;Bouwlaagtekst&gt;. Hierbij geldt:</p>
+<ul>
+<li><p>&lt;Bouwlaagnummer&gt; is verplicht en bestaat uit twee karakterposities voor het bouwlaaghoofdnummer:..., -2, -1, 00, 01, 02, ... Hierin is -1 de eerste kelderbouwlaag, 00 de bouwlaag met de dominante hoofdtoegang en 01 het nummer voor een hoger gelegen bouwlaag. Bij een tussenverdieping krijgt het bouwlaaghoofdnummer een toevoeging met 1 karakterpositie met een letter voor aanduiding van de tussenverdieping. Als er binnen eenzelfde bouwlaaghoofdnummer meerdere tussenverdiepingen zijn, worden deze met een alfabetisch opeenvolgende letter aangeduid: bijvoorbeeld 00t, 00s (een letter met een eerdere positie in het alfabet duidt daarbij een lager gelegen tussenverdieping aan).</p></li>
+<li><p>&lt;Bouwlaagtekst&gt; is optioneel en is een tekstuele beschrijving, al of niet voorafgegaan door een rangtelwoord.</p></li>
+</ul>
+<h2 id="constructie-discipline">Constructie (discipline) </h2>
+<p>Binnen deze discipline zijn er nog geen specifieke structuureisen van kracht anders dan in algemene zin in deze Specificatie beschreven. Het wettelijk kader is hiervoor eerste uitgangspunt.</p>
+<h2 id="bouwkunde-discipline">Bouwkunde (discipline) </h2>
+<p>Binnen deze discipline zijn er nog geen specifieke structuureisen van kracht anders dan in algemene zin in deze Specificatie beschreven. Het wettelijk kader is hiervoor eerste uitgangspunt.</p>
+<h2 id="werktuigbouw-discipline">Werktuigbouw (discipline) </h2>
+<p>Binnen deze discipline zijn er nog geen specifieke structuureisen van kracht anders dan in algemene zin in deze Specificatie beschreven. Het bestaande wettelijk kader is hiervoor eerste uitgangspunt.</p>
+<h2 id="elektrotechniek-discipline">Elektrotechniek (discipline) </h2>
+<p>Binnen deze discipline zijn er nog geen specifieke structuureisen van kracht anders dan in algemene zin in deze Specificatie beschreven. Het bestaande wettelijk kader is hiervoor eerste uitgangspunt.</p>
+<h2 id="terrein-discipline">Terrein (discipline) </h2>
+<p>Binnen deze discipline zijn er nog geen specifieke structuureisen van kracht anders dan in algemene zin in deze Specificatie beschreven. Het bestaande wettelijk kader is hiervoor eerste uitgangspunt.</p>
+<h2 id="brandveiligheid-aspect">Brandveiligheid (aspect) </h2>
+<p>Tekeningen voor het aspect brandveiligheid voldoen aan de volgende aanvullende structuureisen:</p>
+<ul>
+<li><p>de corresponderende bouwkundige tekening is als ‘onderlegger’ toegevoegd en als <em>block</em> geplaatst op <em>layer</em> <strong>0</strong>;</p></li>
+<li><p>alle getekende brandveiligheidsinformatie conformeert zich aan NEN 1413:2011;</p></li>
+<li><p>alle getekende brandveiligheidsinformatie, zoals symbolen en lijnen, is geplaatst op de <em>layer</em> met NL/SfB-elementcode 65;</p></li>
+<li><p>ieder symbool (met uitzondering van compartimentlijnen) bestaat uit een <em>block</em> met de inhoud en eigenschappen zoals voorgeschreven in NEN 1413:2011.</p></li>
+</ul>
+<h2 id="beveiliging-aspect">Beveiliging (aspect) </h2>
+<p>Binnen dit aspect zijn er nog geen specifieke structuureisen van kracht anders dan in algemene zin in deze Specificatie beschreven. Het bestaande wettelijk kader is hiervoor eerste uitgangspunt.</p>
+<h1 id="inhoud">Inhoud </h1>
+<h2 id="basiseisen-voor-inhoud">Basiseisen voor inhoud </h2>
+<p>Technisch revisietekenwerk wordt veelal geleverd in het kader van een project voor de realisatie van nieuwbouw, verbouw, aankoop, aanhuur en onderhoud van bouwwerken. Het Rijksvastgoedbedrijf treedt vanuit zijn rol in de realisatie en instandhouding van huisvesting veelal op als eindopdrachtgever van een dergelijk project. Aan het technisch revisietekenwerk conform deze Specificatie worden de volgende algemene inhoudseisen gesteld:</p>
+<ul>
+<li><p>in het tekenwerk wordt de gerealiseerde situatie ter plaatse weergegeven: de 'as built'/’as is’/'as maintained' situatie;</p></li>
+<li><p>alle getekende informatie ten behoeve van de realisatie/montage/installatie van bouwdelen wordt eveneens getekend in het bijbehorende technisch revisietekenwerk;</p></li>
+<li><p>alle in het project gerealiseerde bouwdelen binnen elke discipline worden volledig getekend/gerepresenteerd volgens de principes in § 1.3 Basisprincipes voor technisch revisietekenwerk;</p></li>
+<li><p>aangeboden CAD-bestanden met technisch revisietekenwerk mogen slechts informatie bevatten van één Bouwwerkcode; als binnen het werk meerdere Bouwwerkcodes onder handen én met elkaar verbonden zijn, is opnemen van Bouwwerkinformatie van meerdere Bouwwerkcodes in één CAD-bestand slechts toegestaan na overleg met en na schriftelijke toestemming mét nadere instructie van de RVB-opdrachtgever;</p></li>
+<li><p>bij verbouw van bouwwerken en/of vervanging van bouwdelen van bouwwerken wordt het getekende uit het bestaande (door het RVB aangeleverde) technisch revisietekenwerk volledig inhoudelijk overgenomen, worden de wijzigingen getekend en wordt in het geactualiseerde technisch revisietekenwerk aangegeven welke gebieden/bouwdelen zijn gewijzigd ten opzichte van dat bestaande (door het RVB aangeleverde) technisch revisietekenwerk;</p></li>
+<li><p>de getekende informatie in het technisch revisietekenwerk van een project wordt in een zo beperkt mogelijke set tekeningen vastgelegd;</p></li>
+<li><p>de getekende informatie is zo min mogelijk redundant, het principe van éénmalige vastlegging en meermalig gebruik wordt maximaal toegepast;</p></li>
+<li><p>de getekende informatie in de volledige set technisch revisietekenwerk van een project is niet onderling strijdig;</p></li>
+<li><p>van alle bouwlagen is een plattegrond getekend en is er daarmee van alle ruimten een plattegrond getekend.</p></li>
+<li><p>alle kenmerkende doorsneden zijn getekend: alle doorsneden met hoogteverschillen in peilmaten van ruimten, trappen, vides en die waaruit de verticale samenhang blijkt;</p></li>
+<li><p>alle gevels zijn getekend, ook binnengevels (eventueel als onderdeel van doorsneden).</p></li>
+</ul>
+<p>In de hiernavolgende paragrafen worden per discipline nadere eisen gesteld.</p>
+<h2 id="constructie-discipline-1">Constructie (discipline) </h2>
+<p>Alle in het project gerealiseerde bouwdelen binnen deze discipline worden getekend. Het wettelijk kader is hierbij eerste uitgangspunt. Minimaal gaat het om het tekenen van de volgende bouwdelen en/of weergave van eigenschappen:</p>
+<ul>
+<li><p>alle bouwdelen van de hoofddraagconstructie;</p></li>
+<li><p>het onderscheid tussen geprefabriceerd en in het werk gestort beton;</p></li>
+<li><p>toegepaste betonkwaliteiten en staalsoorten;</p></li>
+<li><p>tijdsduur tot bezwijken, indien bepaald tijdens het ontwerpen van bouwdelen of materialen;</p></li>
+<li><p>overspanningsrichting.</p></li>
+</ul>
+<h2 id="bouwkunde-discipline-1">Bouwkunde (discipline) </h2>
+<h3 id="basis-bouwdeelniveau-bouwkunde">Basis bouwdeelniveau Bouwkunde </h3>
+<p>Alle in het project gerealiseerde bouwdelen binnen deze discipline worden getekend. Het bestaande wettelijk kader is hiervoor eerste uitgangspunt. Minimaal gaat het om het tekenen van de volgende bouwdelen en/of weergave van eigenschappen:</p>
+<ul>
+<li><p>wanden, vloeren en daken; inclusief de plaatselijke onderbrekingen daarin (vides, sparingen enzovoort);</p></li>
+<li><p>wandafwerkingen voorzien van een attest of certificaat, inclusief materiaalaanduiding (de tekst in het renvooi komt overeen met de materiaalnaam of aanduiding in het attest of certificaat);</p></li>
+<li><p>wand- vloer- en dakopeningen (deuren, ramen, luiken, daklichten, rook-/warmteafvoeren enzovoort), inclusief weergave van openingsrichting (draaicirkelboog) en bewegingsvlak.</p></li>
+<li><p>verticale verkeersvoorzieningen (trappen, hellingen, liften enzovoort) en is -indien van toepassing- voorzien van een pijl in de stijgrichting;</p></li>
+<li><p>balustraden en leuningen;</p></li>
+<li><p>vaste voorzieningen (keukens, sanitair, inbouwkasten enzovoort).</p></li>
+</ul>
+<h3 id="stramien-1">Stramien </h3>
+<p>Alle projecties zijn voorzien van een stramien waarmee een referentie ontstaat voor plaatsbepaling van bouwdelen. Het stramien wordt volledig getekend in alle plattegronden.</p>
+<h3 id="hoogtematen-1">Hoogtematen </h3>
+<p>De peilmaten van elk vloerveld, boven (+) of onder (-) het vastgestelde peil, worden aangegeven in alle voorkomende projecties.</p>
+<h3 id="maataanduiding-1">Maataanduiding </h3>
+<p>Minmaal de volgende maataanduidingen moeten zijn aangebracht in een CAD-bestand:</p>
+<ul>
+<li><p>stramienen (in alle projecties), voor zover van toepassing;</p></li>
+<li><p>uitwendige maten van bouwwerken (in alle projecties);</p></li>
+<li><p>netto hoogtematen van verdiepingen met tussenliggende en totaalmaten, ten opzichte van het vastgestelde peil, in doorsneden;</p></li>
+<li><p>hoofdgevelmaten, goothoogten en nokhoogten, ten opzichte van het vastgestelde peil, in gevels.</p></li>
+</ul>
+<h3 id="ruimtenaam">Ruimtenaam </h3>
+<p>Elke ruimte binnen een bouwwerk wordt voorzien van minimaal één naam. De ruimtenaam wordt weergegeven in de vorm van tekst geplaatst in de plattegrond van de getekende ruimte in een <em>layer</em> voor tekst volgens tabel 0 van de publicatie ‘NL/SfB tabellen 2005 inclusief herziene elementenmethode</p>
+<p>'91'<a href="#fn17" class="footnote-ref" id="fnref17" role="doc-noteref"><sup>17</sup></a>. Het gaat bij de ruimtenaam om een beschrijving van de (gebruikers-)activiteiten die plaatsvinden in een ruimte<a href="#fn18" class="footnote-ref" id="fnref18" role="doc-noteref"><sup>18</sup></a>.</p>
+<h3 id="ruimtecode">Ruimtecode </h3>
+<p>Elke ruimte binnen een bouwwerk wordt voorzien van een unieke code in de vorm van tekst geplaatst in de plattegrond van de getekende ruimten in een <em>layer</em> voor tekst volgens tabel 0 van de publicatie ‘NL/SfB tabellen 2005 inclusief herziene elementenmethode '91'<a href="#fn19" class="footnote-ref" id="fnref19" role="doc-noteref"><sup>19</sup></a>.</p>
+<h2 id="werktuigbouw-discipline-1">Werktuigbouw (discipline) </h2>
+<p>Alle in het project gerealiseerde bouwdelen binnen deze discipline worden getekend. Het bestaande wettelijk kader is hiervoor eerste uitgangspunt. Minimaal gaat het om het tekenen van de volgende bouwdelen en/of weergave van eigenschappen:</p>
+<ul>
+<li><p>brandkleppen;</p></li>
+<li><p>brandafsluiters in een W-installatie ter plaatse van een compartimentdoorvoer;</p></li>
+<li><p>(nood)afsluiters van bouwwerkinstallaties;</p></li>
+<li><p>(nood)schakelaars van bouwwerkinstallaties.</p></li>
+</ul>
+<h2 id="elektrotechniek-discipline-1">Elektrotechniek (discipline) </h2>
+<p>Alle in het project gerealiseerde bouwdelen binnen deze discipline worden getekend. Het bestaande wettelijk kader is hiervoor eerste uitgangspunt. Minimaal gaat het om het tekenen van de volgende bouwdelen en/of weergave van eigenschappen:</p>
+<p> brandafsluiters in een E-installatie ter plaatse van een compartimentdoorvoer.</p>
+<h2 id="terrein-discipline-1">Terrein (discipline) </h2>
+<p>Alle in het project gerealiseerde bouwdelen binnen deze discipline worden getekend. Het bestaande wettelijk kader is hiervoor eerste uitgangspunt.</p>
+<h2 id="brandveiligheid-aspect-1">Brandveiligheid (aspect) </h2>
+<p>Alle in het project gerealiseerde brandveiligheidsvoorzieningen worden getekend. Minimaal gaat het hierbij om de voorzieningen genoemd in NEN 1413:2011</p>
+<p>(Beschermde) (sub)brandcompartimenten zijn aangegeven met behulp van zichtbare en afleesbare compartimentscheidingen die zijn voorzien van eigenschappen zoals opgenomen in NEN 1413. Brandveiligheidsvoorzieningen zijn weergegeven met de symbolen zoals opgenomen in NEN</p>
+<p>1413:2011.</p>
+<p>Indien brandveiligheidsvoorzieningen hun oorsprong vinden in een andere discipline (bouwkunde, elektrotechniek, etc.) kan het voorkomen dat een bouwwerkelement of voorziening meerdere malen gerepresenteerd wordt in de set revisietekeningen van een bouwwerk. Dit is toegestaan mits de verschillende representaties onderling niet strijdig zijn.</p>
+<h2 id="beveiliging-aspect-1">Beveiliging (aspect) </h2>
+<p>Expliciete beveiligingsinformatie wordt opgenomen in aparte CAD-bestanden. Ook mogen CADbestanden in andere disciplines niet 'vervuild’ zijn met expliciete beveiligingsinformatie, anders dan strikt noodzakelijk voor het doel en de functie van die andere tekeningen.</p>
+<h1 id="visualisatie">Visualisatie </h1>
+<h2 id="basiseisen-voor-visualisatie">Basiseisen voor visualisatie </h2>
+<p>Van elke tekening (aanwezig in de CAD-bestanden behorend tot de verzameling technisch revisietekenwerk van een project) wordt, naast de levering van de CAD-bestanden zelf, een visualisatie in PDF-bestandsformaat geleverd. Deze PDF-bestanden moeten tenminste aan onderstaande eisen voldoen:</p>
+<ul>
+<li><p>bij meer tekeningen in één CAD-bestand worden de resulterende PDF-bestanden van elke tekening samenvoegd in één PDF-bestand met gelijke naam als het CAD-bestand (exclusief extensie).</p></li>
+<li><p>de getekende en weergegeven onderdelen zijn goed zichtbaar en te onderscheiden, ook bij visualisatie van de PDF-bestanden naar papier als medium met een afdrukschaal 1:1;</p></li>
+<li><p>de fonts in de PDF-bestanden zijn 'embedded';</p></li>
+<li><p>de PDF-bestanden voldoen aan de PDF standaard;</p></li>
+<li><p><em>Layers</em> aanwezig in een CAD-bestand zijn ook als zodanig aanwezig in het bijbehorende PDFbestand.</p></li>
+</ul>
+<h2 id="tekeningformaat">Tekeningformaat </h2>
+<p>De tekeningen in de <em>layout tabs</em> van CAD-bestanden zijn gedefinieerd als A-formaat volgens NEN 379:2003. Verlenging van A-formaten vindt plaats volgens NEN 2302:1983 (§ 2.1). Daarnaast is verlenging van een A4-formaat conform deze methode toegestaan tot een maximaal formaat van 297x1680 mm (8 keer A4 over de lange zijde), toepassing van een verlengd A0-formaat is toegestaan tot een maximaal formaat van 841x2378 mm (2 keer A0 over de korte zijde).</p>
+<p>Alle tekeningen binnen één type projectie binnen één discipline binnen een project hebben hetzelfde papierformaat<a href="#fn20" class="footnote-ref" id="fnref20" role="doc-noteref"><sup>20</sup></a>.</p>
+<h2 id="vouwen">Vouwen </h2>
+<p>Gevisualiseerde tekeningen naar papier als medium worden gevouwen volgens NEN 2302:1983 (§ 2.2) of NEN 379:2003.</p>
+<h2 id="lijnen">Lijnen </h2>
+<h3 id="lijnsoorten-en-lijnsymbolen">Lijnsoorten en lijnsymbolen </h3>
+<p>Voor de toepassing van lijnsoorten en lijnsymbolen in een tekening is NEN 2302:1983 van toepassing (§ 4.1).</p>
+<h3 id="lijndikten">Lijndikten </h3>
+<p>Voor het gebruik van lijndikten in een tekening is § 2.3 van NEN 2302:1983 van toepassing.</p>
+<h3 id="pentabel">Pentabel </h3>
+<p>Er worden geen nadere eisen gesteld aan de kleur-pen koppeling.</p>
+<h3 id="afwijkende-linetypes">Afwijkende <em>linetypes</em> </h3>
+<p>Alle afwijkende <em>linetypes</em> (anders dan getrokken en gestippelde lijnen) worden verklaard in een renvooi. Indien noodzakelijk voor een goed begrip van de tekening kan een afwijkend <em>linetype</em> voorzien worden van een verklarende tekst in de tekening in <em>modelspace</em>. Verklaring van afwijkende <em>linetypes</em> in een renvooi geldt niet voor:</p>
+<ul>
+<li><p>Stramienlijnen.</p></li>
+<li><p>Afbreeklijnen.</p></li>
+<li><p>Componentprojecties.</p></li>
+</ul>
+<p>Het resultaat van visualisatie naar andere media (van de tekening(en) binnen het CAD-bestand) bevat slechts <em>linetypes</em> die goed zichtbaar en te onderscheiden zijn.</p>
+<h2 id="arceringen">Arceringen </h2>
+<p>Voor het gebruik van arceringen in een tekening is NEN 2302:1983 (§ 2.5) van toepassing. Het resultaat van visualisatie naar andere media (van de tekening(en) binnen het CAD-bestand) bevat arceerpatronen die goed zichtbaar en te onderscheiden zijn. Daarnaast zijn de arceerpatronen in dezelfde bouwdeeldoorsnijdingen en in het daarmee corresponderende renvooi hetzelfde binnen het technisch revisietekenwerk van één project.</p>
+<h2 id="schrift">Schrift </h2>
+<p>Voor het gebruik van schrift in een tekening is NEN 2302:1983 van toepassing (§ 2.8). Schrift in de tekeningen moet zijn gesteld in de Nederlandse taal.</p>
+<h2 id="schaal">Schaal </h2>
+<p>Binnen een tekeningkader in <em>paperspace</em> worden entiteiten, getekend in <em>modelspace</em>, zichtbaar gemaakt door middel van één of meerdere <em>viewports</em>. Verschaling van deze entiteiten vindt plaats door middel van de schaalinstelling gekoppeld aan het desbetreffende <em>viewport</em>. Voor het gebruik van schalen is NEN-ISO 5455:1990 van toepassing. Voor de verschaling van het te tekenen object (of objecten) binnen een projectie in een tekening is NEN-ISO 5455:1990 van toepassing. Tekeningen, gedefinieerd in <em>paperspace</em>, zijn bedoeld om afgedrukt te worden met een plotschaal 1:1 (de gemeten afmetingen in <em>paperspace</em> zijn gelijk aan de gemeten afmetingen op de afgedrukte tekening).</p>
+<h2 id="oriëntatie">Oriëntatie </h2>
+<p>De oriëntatie van het bouwwerk, zowel in het WCS als in de <em>viewports</em> van de tekeningen, is vrij te bepalen. Het heeft echter de voorkeur om een zodanige oriëntatie te kiezen dat de noordpijl in de tekening naar de bovenzijde van het tekeningkader wijst. Plattegrondtekeningen worden voorzien van een noordpijl.</p>
+<h2 id="ordening-van-afbeeldingen">Ordening van afbeeldingen </h2>
+<p>Voor de ordening van afbeeldingen in een tekening is NEN 2302:1983 van toepassing (§ 3.3).</p>
+<h2 id="symbolische-informatie">Symbolische informatie </h2>
+<p>Voor de visualisatie naar andere media van symbolische informatie in een tekening is NEN 2302:1983 van toepassing (hoofdstuk 4).</p>
+<h2 id="maatvoering">Maatvoering </h2>
+<h3 id="hoogtematen-2">Hoogtematen </h3>
+<p>Voor het aangeven van hoogtematen in een tekening, is NEN 2302:1983 van toepassing (§ 5.3.2).</p>
+<p>Hoogtematen worden gesteld in millimeters.</p>
+<h3 id="maataanduiding-2">Maataanduiding </h3>
+<p>Voor de visualisatie van maataanduidingen naar andere media in een tekening is NEN 2302:1983 van toepassing (hoofdstuk 5; inclusief de in 5.1.1 aangegeven voorkeuren).</p>
+<h2 id="geschreven-informatie">Geschreven informatie </h2>
+<p>Voor geschreven informatie in een tekening is NEN 2302:1983 van toepassing (hoofdstuk 6).</p>
+<h2 id="tekeningkader">Tekeningkader </h2>
+<p>Elke -binnen een CAD-bestand gedefinieerde- tekening is voorzien van een tekeningkader. Een tekeningkader bestaat tenminste uit een rechthoek welke de grenzen van de tekening aangeeft. Naast een rechthoek voor het aangeven van de grenzen van de tekening bevat een tekeningkader een markering voor de grenzen van het af te drukken gebied voor visualisatie naar andere media. De grenzen van het af te drukken gebied voldoen qua afmetingen aan § 3.2 Tekeningformaat. Voor een tekeningkader van een tekening is NEN 2302:1983 van toepassing (§ 2.6). De afstand tussen de grens van de tekening en de grens van het af te drukken gebied (de 'rand' in § 2.6 van NEN 2302:1983) mag echter kleiner zijn dan de hierin genoemde 20 mm.</p>
+<h2 id="titelblok">Titelblok </h2>
+<p>Elke -binnen een CAD-bestand gedefinieerde- tekening is voorzien van een titelblok. Voor titelblokken is NEN 2302:1983 van toepassing (§ 2.7; titelblok is identificatiestrook) en NEN-EN-ISO 5457. Bij strijdigheid van deze normen gaan de eisen in NEN-EN-ISO 5457 boven de eisen in de NEN 2302:1983.</p>
+<h2 id="renvooi">Renvooi </h2>
+<p>Alle, in een tekening voorkomende, arceringen, symbolen en afwijkende <em>linetypes</em> dienen in een renvooi te worden opgenomen met de verklaring ervan. Een renvooi bestrijkt een verticale strook tussen het titelblok en de bovenrand van het tekeningkader. Deze strook is niet breder dan het titelblok.</p>
+<h2 id="overzichttekening">Overzichttekening </h2>
+<p>Wanneer binnen een tekening slechts een onderdeel van een bouwwerk (bijvoorbeeld een bouwdeel, een ruimte of een detail) afgebeeld wordt dan wordt er een overzichttekening geplaatst boven het titelblok. Een overzichttekening moet zodanig worden geplaatst dat deze zichtbaar blijft op de gevouwen tekening.</p>
+<p>De overzichttekening maakt duidelijk waar het desbetreffende onderdeel van het bouwwerk zich bevindt binnen het totale bouwwerk. Een overzichttekening bevat bijvoorbeeld de volgende informatie:</p>
+<ul>
+<li><p>een schematische situatietekening,</p></li>
+<li><p>een schematische plattegrond van het bouwwerk waarop het totaal en het beschouwde deel is aangegeven;</p></li>
+<li><p>een schematische plattegrond van het bouwwerk waarop verdieping en kijkrichting is aangegeven.</p></li>
+</ul>
+<p>Rijksvastgoedbedrijf; RVB CAD Specificatie (RCS) versie 1.01; 01-07-2019 Pagina 21 van 29</p>
+<h1 id="opslag">Opslag </h1>
+<h2 id="basiseisen-voor-opslag">Basiseisen voor opslag </h2>
+<p>Alle op te leveren bestanden (DWG-, PDF- en bronbestanden<a href="#fn21" class="footnote-ref" id="fnref21" role="doc-noteref"><sup>21</sup></a>) worden samen met een volledig en correct ingevulde tekeningenlijst opgeleverd (een XLSX-bestand). Deze tekeningenlijst bevat -van een set bestanden met technisch revisietekenwerk- per aangeleverde tekening één registratieregel met in die regel een overzicht van de daarbij horende kenmerken. In Bijlage 2: Tekeningenlijst is aangegeven welke tekeningkenmerken uit de tekeningenlijst moeten corresponderen met een tekeningkenmerk in het titelblok van een tekening<a href="#fn22" class="footnote-ref" id="fnref22" role="doc-noteref"><sup>22</sup></a>.</p>
+<p>Als het RVB bestaand technisch revisietekenwerk ter mutatie aanlevert, dan worden alle bestanden door de leverancier ook weer opgeleverd, ook als deze niet zijn gewijzigd. Als het RVB bestaand tekenwerk ter mutatie aanlevert, dan levert het een tekeningenlijst mee van alle tekeningen en bestanden in zijn documentbeheeromgeving met betrekking tot de Bouwwerkcode. Daarin geeft het RVB tevens aan welke bestanden voor <u>exclusieve</u> mutatie/revisie door de leverancier zijn vrijgegeven (overige aangeleverde bestanden zijn primair ter informatie en mogelijk ook al vrijgegeven voor mutatie door andere leveranciers). De leverancier muteert slechts de bestanden die door het RVB aan de leverancier worden aangeleverd en zijn vrijgegeven om exclusief door de leverancier te worden gemuteerd. Als de leverancier het nodig acht ook andere bestanden te muteren, dan doet zij dit pas nadat zij daarvoor van de RVB opdrachtgever expliciet toestemming heeft gekregen door middel van een (aanvullende) vrijgave van die bestanden voor exclusieve mutatie.</p>
+<h2 id="mappenstructuur">Mappenstructuur </h2>
+<p>Bestanden, onderdeel van een set bestanden voor technisch revisietekenwerk, worden aangeleverd in één map met submappen voor elke discipline.</p>
+<h2 id="bestandsnaam">Bestandsnaam </h2>
+<p>Elk CAD-bestand heeft een unieke bestandsnaam binnen de verzameling bestandsnamen voor technisch revisietekenwerk van een project. Als het RVB aan de leverancier geen instructies geeft voor revisie van bestaande bestanden en/of gebruik van specifieke bestandsnamen, wordt de bestandsnaam samengesteld uit de volgende bestandskenmerken (zie ook Bijlage 2: Tekeningenlijst):</p>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 59%" />
+<col style="width: 15%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><blockquote>
+<p><em><strong>Bestandskenmerk</strong></em></p>
+</blockquote></th>
+<th><blockquote>
+<p><em><strong>Betekenis</strong></em></p>
+</blockquote></th>
+<th><blockquote>
+<p><em><strong>Voorbeeld</strong></em></p>
+</blockquote></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><blockquote>
+<p>Bouwwerkcode</p>
+</blockquote></td>
+<td><blockquote>
+<p>Code waaronder het Bouwwerk in de RVBsystemen geregistreerd is</p>
+</blockquote></td>
+<td><blockquote>
+<p>105451G02</p>
+</blockquote></td>
+</tr>
+<tr class="even">
+<td><blockquote>
+<p>Discipline</p>
+</blockquote></td>
+<td><blockquote>
+<p>Vakdiscipline waaronder de tekening is bewerkt.</p>
+</blockquote></td>
+<td>E</td>
+</tr>
+<tr class="odd">
+<td><blockquote>
+<p>Bouwlaagnummer</p>
+</blockquote></td>
+<td><blockquote>
+<p>Bouwlaagnummer</p>
+</blockquote></td>
+<td><blockquote>
+<p>02</p>
+</blockquote></td>
+</tr>
+<tr class="even">
+<td><blockquote>
+<p>DWG-nummer</p>
+</blockquote></td>
+<td><blockquote>
+<p>Uniek volgnummer binnen de set bestanden met technisch revisietekenwerk binnen één discipline van één Bouwwerkcode<a href="#fn23" class="footnote-ref" id="fnref23" role="doc-noteref"><sup>23</sup></a></p>
+</blockquote></td>
+<td><blockquote>
+<p>020</p>
+</blockquote></td>
+</tr>
+</tbody>
+</table>
+<p>Syntactisch heeft de naam van het CAD-bestand de volgende opbouw:</p>
+<h4 id="bouwwerkcode_discipline_bouwlaagnummer_dwg-nummer.dwg">&lt;Bouwwerkcode&gt;_&lt;Discipline&gt;_&lt;Bouwlaagnummer&gt;_&lt;DWG-nummer&gt;&lt;.dwg&gt; </h4>
+<p>(een voorbeeld van een bestandsnaam is: 105451G02_E_01_020.dwg).</p>
+<p>De PDF-bestandsnamen zijn altijd gelijk aan de naam van het CAD-bestand waarin één of meerdere tekeningen zijn gedefinieerd, afgezien van de extensie (elke tekening in het CAD-bestand is een pagina in het bijbehorende PDF-bestand).</p>
+<h2 id="bestandsgrootte">Bestandsgrootte </h2>
+<p>Bestanden, onderdeel van een set bestanden voor technisch revisietekenwerk, zijn niet groter dan 10 Megabyte. In die gevallen waar deze maximum bestandsgrootte overschreden wordt, of dreigt te worden, wordt contact opgenomen met de RVB-opdrachtgevervoor overleg over te nemen maatregelen.</p>
+<h2 id="titelblok-1">Titelblok </h2>
+<p>Elke -binnen een CAD-bestand gedefinieerde- tekening is voorzien van een titelblok. Binnen een titelblok worden tekeninggebonden kenmerken vastgelegd. In Bijlage 2: Tekeningenlijst is aangegeven welke kenmerken uit de tekeningenlijst moeten corresponderen met een kenmerk in het desbetreffende titelblok.</p>
+<h1 class="list-paragraph" id="bijlage-1-definities">Bijlage 1: Definities </h1>
+<h2 class="list-paragraph" id="bouwdeel">Bouwdeel </h2>
+<p>Uit materiaal bestaand inwendig element dat invulling geeft aan één of meer verlangde functies en tevens kan worden onderscheiden naar materiële samenstelling of constructiewijze.</p>
+<h2 class="list-paragraph" id="bouwlaag">Bouwlaag </h2>
+<p>Deel van een bouwwerk, dat bestaat uit één of meer ruimten, waarbij de bovenkanten van de afgewerkte vloeren of van het maaiveld van twee aan elkaar grenzende ruimten niet meer dan 1,5 m in hoogte verschillen.</p>
+<h2 class="list-paragraph" id="bouwwerk">Bouwwerk </h2>
+<p>Een omgevingselement zijnde een constructie van enige omvang van hout, steen, metaal of ander materiaal, die op de plaats van bestemming hetzij direct of indirect met de grond verbonden is, hetzij direct of indirect steun vindt in of op de grond, bedoeld om ter plaatse te functioneren, met inbegrip van de daarvan deel uitmakende bouwwerkgebonden installaties.</p>
+<h2 class="list-paragraph" id="bouwwerkgebonden-entiteiten">Bouwwerkgebonden entiteiten </h2>
+<p>Entiteiten gedefinieerd in <em>modelspace</em> binnen een CAD-bestand, die direct informatie verschaffen over (onderdelen van) een bouwwerk. Daarnaast zijn deze entiteiten geen tekeninggebonden entiteiten.</p>
+<h2 class="list-paragraph" id="cad-bestand">CAD-bestand </h2>
+<p>Digitaal bestand aangemaakt door een CAD-programma. CAD staat voor 'Computer Aided Designing/Drafting'. Met CAD-bestand wordt in deze Specificatie altijd een bestand bedoeld wat technisch revisietekenwerk bevat en een met AutoCAD bewerkbaar-bestand is zoals omschreven in §</p>
+<p>1.1.1 Bestandsformaat.</p>
+<h2 class="list-paragraph" id="entiteit">Entiteit </h2>
+<p>AutoCAD-object wat geselecteerd kan worden met één enkele muisklik met de linkermuisknop.</p>
+<h2 class="list-paragraph" id="entiteitkenmerk">Entiteitkenmerk </h2>
+<p>Eigenschappen van een entiteit.</p>
+<h2 class="list-paragraph" id="external-reference"><em>External reference</em> </h2>
+<p>Een verwijzing binnen een CAD-bestand naar een ander CAD-bestand. Een <em>external reference</em> wordt zichtbaar binnen een CAD-bestand, maar maakt daar geen deel van uit. Het bestand waarnaar verwezen wordt, is de <em>external reference</em>. Het bestand waarin een verwijzing naar een <em>external reference</em> is opgenomen, is de <em>master</em>.</p>
+<h2 class="list-paragraph" id="gebouw">Gebouw </h2>
+<p>Bouwwerk dat betreedbaar en afsluitbaar is.</p>
+<h2 class="list-paragraph" id="inwendig-element">Inwendig element </h2>
+<p>Het kleinste binnen een omgevingselement fysiek herkenbare ruimtelijk object dat het RVB wenst te onderscheiden.</p>
+<h2 class="list-paragraph" id="omgevingselement">Omgevingselement </h2>
+<p>Het kleinste in de buitenruimte (boven, op of onder het aardoppervlak) fysiek herkenbare ruimtelijk object dat het RVB wenst te onderscheiden.</p>
+<h2 class="list-paragraph" id="ruimte">Ruimte </h2>
+<p>Uit lege ruimte bestaand inwendig element dat voor mensen toegankelijk is, ten minste aan de onderzijde, en/of de bovenzijde wordt begrensd door bouwdelen en een netto-hoogte heeft van ten minste 1,5 m.</p>
+<h2 class="list-paragraph" id="ruimtelijk-object">Ruimtelijk object </h2>
+<p>Iets dat een vorm, afmeting en positie heeft ten opzichte van het aardoppervlak.</p>
+<h2 class="list-paragraph" id="rvb">RVB </h2>
+<p>Afkorting voor het Rijksvastgoedbedrijf, een agentschap van het ministerie van Binnenlandse Zaken en Koninkrijksrelaties (ministerie BZK). Als er in deze Specificatie gesproken wordt van aanwijzingen, bepalingen, materialen of opdrachten die verstrekt worden door het RVB, dan wordt hiermee het organisatieonderdeel bedoeld dat als opdrachtgever optreedt voor leveranciers voor de vervaardiging van technisch revisietekenwerk.</p>
+<h2 class="list-paragraph" id="rvb-objectrvb-gebouw">RVB-object/RVB-gebouw </h2>
+<p>Een bouwwerk wat als geheel geregistreerd is onder één Bouwwerkcode binnen de informatiesystemen van het Rijksvastgoedbedrijf. Doorgaans omvat dit een bouwwerk exclusief het bijbehorende terrein.</p>
+<h2 class="list-paragraph" id="technisch-revisietekenwerk">Technisch revisietekenwerk </h2>
+<p>Technische tekeningen waarop de gerealiseerde situatie ter plaatse wordt weergegeven, ook wel 'as built'/’as is’/'as maintained' tekenwerk genoemd.</p>
+<h2 class="list-paragraph" id="tekening">Tekening </h2>
+<p>Het totaal van tekeninggebonden entiteiten en bouwwerkgebonden entiteiten –welke laatste slechts via de <em>viewports</em> zichtbaar zijn in <em>paperspace</em>- en die bedoeld zijn om af te drukken tot een papieren document ten behoeve van het overdragen van (deel-)informatie over het bouwwerk. Elke tekening bevat slechts één tekeningkader met daarbinnen één titelblok.</p>
+<h2 class="list-paragraph" id="tekeninggebonden-entiteiten">Tekeninggebonden entiteiten </h2>
+<p>Entiteiten gedefinieerd in <em>paperspace</em> binnen een CAD-bestand, die samen een tekening vormen. Het gaat hier om het tekeningkader waarbinnen het titelblok samen met bijvoorbeeld een renvooi, overzichttekening, een <em>viewport</em> of andere entiteiten geplaatst zijn.</p>
+<h2 class="list-paragraph" id="titelblok-2">Titelblok </h2>
+<p>Het titelblok is een in de tekening opgenomen invulblok dat bedoeld is ter identificatie van de tekening.</p>
+<p>Elke tekening bevat slechts één titelblok. Dit wordt ook wel onderhoek of identificatiestrook genoemd. NB: Tot 1 april 2010 werd een titelblok volgens RVB model voorgeschreven. Daarna is het gebruik van een eigen ‘leveranciers’ titelblok voorgeschreven. In Bijlage 2: Tekeningenlijst is aangegeven welke kenmerken uit de tekeningenlijst moeten corresponderen met een kenmerk in het desbetreffende titelblok (zie kolom ‘Zichtbaar in titelblok’).</p>
+<h1 class="list-paragraph" id="bijlage-2-tekeningenlijst">Bijlage 2: Tekeningenlijst </h1>
+<p>Alle aan te leveren bestanden worden altijd samen met een tekeningenlijst opgeleverd. Deze tekeningenlijst bevat een overzicht van de te registreren kenmerken (op regel 1)<a href="#fn24" class="footnote-ref" id="fnref24" role="doc-noteref"><sup>24</sup></a>. Dit bestand bestaat uit twee tabbladen: 'project en leverancier' en 'tekeningen'. In het tabblad 'project en leverancier' worden project- en leveranciersgegevens geregistreerd (betrekking hebbend op alle opgeleverde tekeningen samen). In het tabblad 'tekeningen' worden tekeninggebonden gegevens geregistreerd: op de regels vanaf regel 2 (de registratieregels) worden per opgeleverde tekening alle te registreren kenmerken voorzien van een correcte waarde.</p>
+<p>In Tabel 2: kenmerken in de tekeningenlijst en/of het titelblok is per kenmerk een aantal nadere gegevens en eisen vermeld.</p>
+<ul>
+<li><p>In kolom 'Kenmerk' wordt een overzicht gegeven van de kenmerken die van belang zijn.</p></li>
+<li><p>In de kolom 'Betekenis' wordt nadere uitleg gegeven over de kenmerken.</p></li>
+<li><p>In de kolom 'Opgave RVB-opdrachtgever' wordt aangegeven welke informatie aangeleverd moet worden door RVB-opdrachtgever bij aanleveren van (te muteren) technisch revisietekenwerk aan de leverancier.. Deze gegevens mogen niet door een leverancier zelf gegenereerd worden en er moeten altijd door de leverancier achteraf een of meerdere documenten van de RVBopdrachtgever getoond kunnen worden als bewijs dat deze gegevens zijn aangeleverd.</p></li>
+<li><p>In kolom 'Zichtbaar in titelblok' is aangegeven welke ingevulde waarden van kenmerken in de tekeningenlijst ten minste moeten corresponderen met informatie in het desbetreffende titelblok van de tekeningen.</p></li>
+<li><p>In de kolom 'Opmaak / Toegestane waarden' worden, indien van toepassing, specifieke eisen gesteld aan de in te vullen waarde onder het desbetreffende kenmerk.</p></li>
+<li><p>In de kolom 'Voorbeeld' wordt een voorbeeld van een ingevulde waarde zowel onder het desbetreffende kenmerk in de tekeningenlijst als in het titelblok (indien het laatste van toepassing is).</p></li>
+</ul>
+<p>Geef de tekeningenlijst een herkenbare bestandsnaam.</p>
+<table>
+<colgroup>
+<col style="width: 26%" />
+<col style="width: 31%" />
+<col style="width: 3%" />
+<col style="width: 2%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><blockquote>
+<p><em><strong>Kenmerk</strong></em></p>
+</blockquote></th>
+<th><blockquote>
+<p><em><strong>Betekenis</strong></em></p>
+</blockquote></th>
+<th></th>
+<th></th>
+<th><blockquote>
+<p><em><strong>Opmaak / Toegestane waarden</strong></em></p>
+</blockquote></th>
+<th><blockquote>
+<p><em><strong>Voorbeeld</strong></em></p>
+</blockquote></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><blockquote>
+<p>Bouwwerkcode</p>
+</blockquote></td>
+<td><blockquote>
+<p>Code waaronder het Bouwwerk in de RVB-systemen geregistreerd is</p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>X</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>X</strong></p>
+</blockquote></td>
+<td></td>
+<td><blockquote>
+<p>105451G02</p>
+</blockquote></td>
+</tr>
+<tr class="even">
+<td><blockquote>
+<p>Discipline</p>
+</blockquote></td>
+<td><blockquote>
+<p>Vakdiscipline waaronder de tekening is bewerkt. Keuze uit:</p>
+<p>B=Bouwkunde</p>
+<p>C=Constructie</p>
+<p>E=Elektrotechniek</p>
+<p>T=Terrein</p>
+<p>W=Werktuigbouw</p>
+</blockquote></td>
+<td></td>
+<td><blockquote>
+<p><strong>X</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p>één hoofdletter</p>
+</blockquote></td>
+<td><blockquote>
+<p>B</p>
+</blockquote></td>
+</tr>
+<tr class="odd">
+<td><blockquote>
+<p>Bouwlaagnummer</p>
+</blockquote></td>
+<td><blockquote>
+<p>Locatieaanduiding van tekening in verticale zin. Hier het</p>
+<p>Bouwlaagnummer als onderdeel van de Bouwlaagaanduiding:</p>
+<p>XX= bouwlaagnummer (oplopend in hoogte)</p>
+<p>MB=meerdere bouwlagen</p>
+<p>GB=Geen Bouwlaag</p>
+</blockquote></td>
+<td></td>
+<td><blockquote>
+<p><strong>X</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p>2 posities nummeriek of alfanummeriek</p>
+</blockquote></td>
+<td><blockquote>
+<p>01, 02, 45, MB,</p>
+<p>GB<a href="#fn25" class="footnote-ref" id="fnref25" role="doc-noteref"><sup>25</sup></a>,</p>
+</blockquote></td>
+</tr>
+<tr class="even">
+<td><blockquote>
+<p>DWG-nummer</p>
+</blockquote></td>
+<td><blockquote>
+<p>Uniek volgnummer binnen de set bestanden met technisch revisietekenwerk binnen één discipline van één Bouwwerkcode</p>
+</blockquote></td>
+<td></td>
+<td></td>
+<td><blockquote>
+<p>000</p>
+</blockquote></td>
+<td><blockquote>
+<p>020</p>
+</blockquote></td>
+</tr>
+<tr class="odd">
+<td><blockquote>
+<p>Bestandsnaam</p>
+</blockquote></td>
+<td><blockquote>
+<p>Zie 4.3 Bestandsnaam</p>
+</blockquote></td>
+<td></td>
+<td></td>
+<td><blockquote>
+<p>&lt;Bouwwerkcode&gt;_ &lt;Discipline&gt;_&lt;Bouw laagnummer&gt;_&lt;DW G-nummer&gt;&lt;.dwg&gt;</p>
+</blockquote></td>
+<td><blockquote>
+<p>105451G02_B_01_0</p>
+<p>20.dwg</p>
+</blockquote></td>
+</tr>
+<tr class="even">
+<td><blockquote>
+<p>Status</p>
+</blockquote></td>
+<td><blockquote>
+<p>Status van tekening ten opzichte van door RVB aangeleverde bronbestanden: N=nieuwe tekening</p>
+<p>G=gewijzigde tekening</p>
+<p>O=ongewijzigde tekening</p>
+<p>V=vervalt</p>
+</blockquote></td>
+<td></td>
+<td></td>
+<td><blockquote>
+<p>N/G/O/V</p>
+</blockquote></td>
+<td><blockquote>
+<p>G</p>
+</blockquote></td>
+</tr>
+<tr class="odd">
+<td><blockquote>
+<p>Versie</p>
+</blockquote></td>
+<td><blockquote>
+<p>Versie van de tekening aangeduid met een hoofdletter</p>
+</blockquote></td>
+<td></td>
+<td></td>
+<td><blockquote>
+<p>één of twee hoofdletters<sup>26</sup></p>
+</blockquote></td>
+<td><blockquote>
+<p>A, AA</p>
+</blockquote></td>
+</tr>
+<tr class="even">
+<td><blockquote>
+<p>Vrijgegeven?</p>
+</blockquote></td>
+<td><blockquote>
+<p>Bij aanlevering technisch revisietekenwerk door RVB voor mutatie door leverancier:</p>
+<p>vrijgegeven door RVBopdrachtgever voor exclusieve mutatie door leverancier</p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>X</strong></p>
+</blockquote></td>
+<td></td>
+<td><blockquote>
+<p>JA/NEE</p>
+</blockquote></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><blockquote>
+<p>Onderwerp-regel1</p>
+</blockquote></td>
+<td><blockquote>
+<p>Hoofdonderwerp; tekstuele beschrijving van het</p>
+<p>hoofdonderwerp wat de inhoud van alle tekeningen in één CAD-bestand beschrijft. Inhoud is vrij te bepalen.</p>
+</blockquote></td>
+<td></td>
+<td><blockquote>
+<p><strong>X</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p>Maximaal 100 posities</p>
+</blockquote></td>
+<td><blockquote>
+<p>Gevel, Gevels</p>
+</blockquote></td>
+</tr>
+<tr class="even">
+<td><blockquote>
+<p><em><strong>Kenmerk</strong></em></p>
+</blockquote></td>
+<td><blockquote>
+<p><em><strong>Betekenis</strong></em></p>
+</blockquote></td>
+<td></td>
+<td></td>
+<td><em><strong>Opmaak / Toegestane waarden</strong></em></td>
+<td><blockquote>
+<p><em><strong>Voorbeeld</strong></em></p>
+</blockquote></td>
+</tr>
+<tr class="odd">
+<td><blockquote>
+<p>Onderwerp-regel2</p>
+</blockquote></td>
+<td><blockquote>
+<p>Sub onderwerp; tekstuele beschrijving van het subonderwerp, de inhoud van de individuele tekening. Inhoud is vrij te bepalen.</p>
+</blockquote></td>
+<td></td>
+<td><blockquote>
+<p><strong>X</strong></p>
+</blockquote></td>
+<td>Maximaal 100 posities</td>
+<td><blockquote>
+<p>Noord</p>
+</blockquote></td>
+</tr>
+<tr class="even">
+<td><blockquote>
+<p>Gebouwdeel</p>
+</blockquote></td>
+<td><blockquote>
+<p>Locatieaanduiding van tekening in horizontale zin. Optioneel.</p>
+</blockquote></td>
+<td></td>
+<td></td>
+<td></td>
+<td><blockquote>
+<p>Toren C, gebouw A</p>
+</blockquote></td>
+</tr>
+<tr class="odd">
+<td><blockquote>
+<p>Peildatum<a href="#fn26" class="footnote-ref" id="fnref26" role="doc-noteref"><sup>26</sup></a></p>
+</blockquote></td>
+<td><blockquote>
+<p>Datum van weergegeven toestand m.b.t. bouwwerk<sup>28</sup></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>X</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>X</strong></p>
+</blockquote></td>
+<td>DD-MM-JJJJ</td>
+<td><blockquote>
+<p>12-05-2005</p>
+</blockquote></td>
+</tr>
+<tr class="even">
+<td><blockquote>
+<p>Project_nummer</p>
+</blockquote></td>
+<td><blockquote>
+<p>Projectnummer waaronder het project in de RVB-systemen geregistreerd is</p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>X</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>X</strong></p>
+</blockquote></td>
+<td></td>
+<td><blockquote>
+<p>60.09254/</p>
+<p>10021</p>
+</blockquote></td>
+</tr>
+<tr class="odd">
+<td><blockquote>
+<p>Project_naam</p>
+</blockquote></td>
+<td><blockquote>
+<p>Omschrijving van het project</p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>X</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>X</strong></p>
+</blockquote></td>
+<td></td>
+<td><blockquote>
+<p>Hoftoren</p>
+</blockquote></td>
+</tr>
+<tr class="even">
+<td><blockquote>
+<p>Project_huisadres</p>
+</blockquote></td>
+<td><blockquote>
+<p>Straatnaam + huisnummer van het bouwwerk</p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>X</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>X</strong></p>
+</blockquote></td>
+<td></td>
+<td><blockquote>
+<p>Kostverlorenkade 23</p>
+</blockquote></td>
+</tr>
+<tr class="odd">
+<td><blockquote>
+<p>Project_postcode</p>
+</blockquote></td>
+<td><blockquote>
+<p>Postcode van het bouwwerk</p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>X</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>X</strong></p>
+</blockquote></td>
+<td>0000 XX</td>
+<td><blockquote>
+<p>2511 VE</p>
+</blockquote></td>
+</tr>
+<tr class="even">
+<td><blockquote>
+<p>Project_plaats</p>
+</blockquote></td>
+<td><blockquote>
+<p>Plaats van het bouwwerk</p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>X</strong></p>
+</blockquote></td>
+<td><blockquote>
+<p><strong>X</strong></p>
+</blockquote></td>
+<td></td>
+<td><blockquote>
+<p>Den Haag</p>
+</blockquote></td>
+</tr>
+<tr class="odd">
+<td><blockquote>
+<p>Leverancier_bedrijfsnaam</p>
+</blockquote></td>
+<td><blockquote>
+<p>Bedrijfsnaam van de leverancier van de volledige opgeleverde set technisch revisietekenwerk</p>
+</blockquote></td>
+<td></td>
+<td><blockquote>
+<p><strong>X</strong></p>
+</blockquote></td>
+<td></td>
+<td><blockquote>
+<p>Allbouw BV</p>
+</blockquote></td>
+</tr>
+<tr class="even">
+<td><blockquote>
+<p>Leverancier_postadres</p>
+</blockquote></td>
+<td><blockquote>
+<p>Postbus + nummer / straatnaam + huisnummer van het postadres</p>
+</blockquote></td>
+<td></td>
+<td></td>
+<td></td>
+<td><blockquote>
+<p>Postbus 201 / Bouwwerkweg 3</p>
+</blockquote></td>
+</tr>
+<tr class="odd">
+<td><blockquote>
+<p>Leverancier_postcode</p>
+</blockquote></td>
+<td><blockquote>
+<p>Postcode van het postadres</p>
+</blockquote></td>
+<td></td>
+<td></td>
+<td>0000 XX</td>
+<td><blockquote>
+<p>1234 AA</p>
+</blockquote></td>
+</tr>
+<tr class="even">
+<td><blockquote>
+<p>Leverancier_plaats</p>
+</blockquote></td>
+<td><blockquote>
+<p>Plaatsnaam van het postadres</p>
+</blockquote></td>
+<td></td>
+<td></td>
+<td></td>
+<td><blockquote>
+<p>Werkstad</p>
+</blockquote></td>
+</tr>
+<tr class="odd">
+<td><blockquote>
+<p>Leverancier_contactpersoon</p>
+</blockquote></td>
+<td><blockquote>
+<p>Naam contactpersoon leverancier</p>
+</blockquote></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><blockquote>
+<p>Leverancier_telefoon</p>
+</blockquote></td>
+<td><blockquote>
+<p>Telefoonnummer contactpersoon leverancier</p>
+</blockquote></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><blockquote>
+<p>Leverancier_e-mailadres</p>
+</blockquote></td>
+<td><blockquote>
+<p>E-mailadres contactpersoon leverancier</p>
+</blockquote></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><em>Tabel 2: kenmerken in de tekeningenlijst en/of het titelblok</em></p>
+<h1 class="list-paragraph" id="bijlage-3-normenoverzicht">Bijlage 3: Normenoverzicht </h1>
+<ul>
+<li><p>Bond van Nederlandse Architecten (BNA): NL/SfB tabellen 2005 inclusief herziene</p></li>
+</ul>
+<blockquote>
+<p>Elementenmethode ’91; Amsterdam; ISBN-10: 90-807626-3-6</p>
+</blockquote>
+<ul>
+<li><p>NEN-ISO 128-40:2001: Technische tekeningen - Algemene principes voor de weergave - Deel 40:</p></li>
+</ul>
+<blockquote>
+<p>Basisafspraken voor doorsneden</p>
+</blockquote>
+<ul>
+<li><p>de bepalingen onder NEN-ISO 128-50:2001 § 9 zijn niet van toepassing</p></li>
+</ul>
+<ul>
+<li><p>NEN-ISO 5455:1990 &amp; /C1:1996: Technische tekeningen. Schalen</p></li>
+<li><p>NEN-ISO 5456-1:1997: Technisch tekenen. Projectiemethoden. Deel 1: Overzicht</p></li>
+<li><p>NEN-ISO 5456-2:1997: Technisch tekenen. Projectiemethoden. Deel 2: Orthografische afbeeldingen</p></li>
+<li><p>NEN-EN-ISO 5457:1999 &amp; /A1:2010: Technische product-documentatie -- Formaten en inrichting van tekenbladen</p>
+<ul>
+<li><p>inclusief de in § 3.1 genoemde voorkeuren</p></li>
+<li><p>de bepalingen onder § 4.3, § 4.4, § 4.5 zijn optioneel</p></li>
+<li><p>de bepalingen onder NEN-EN-ISO 7200:2004 § 5 zijn optioneel</p></li>
+</ul></li>
+<li><p>NEN 1413:2011 : Symbolen voor veiligheidsvoorzieningen op bouwkundige tekeningen en in bouwkundige schema’s</p></li>
+<li><p>NEN 2302:1983: Tekeningen in de bouw -- Algemene regels</p>
+<ul>
+<li><p>de bepalingen onder § 2.7.1 zijn optioneel</p></li>
+<li><p>inclusief de in § 5.1.1 genoemde voorkeuren</p></li>
+</ul></li>
+<li><p>NEN 2574:1993 Tekeningen in de bouw - Indeling van gegevens op tekeningen voor gebouwen</p></li>
+<li><p>NPR 2570:1986: Tekeningen in de bouw -- Coördinatie van gegevens op tekeningen voor gebouwen</p>
+<ul>
+<li><p>uitsluitend § 2</p></li>
+</ul></li>
+<li><p>NEN 379:2003: Technische productdocumentatie - Vouwen en inhechten van tekenbladen</p></li>
+</ul>
+<section class="footnotes" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p>Deze CAD Specificatie vervangt de Norm voor technisch revisietekenwerk'<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p>AutoCAD is een geregistreerd handelsproduct van Autodesk Incorporated.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3" role="doc-endnote"><p>AutoCAD-termen worden in deze Specificatie cursief weergegeven.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4" role="doc-endnote"><p>Een gerasterd bedrijfslogo in het titelblok is toegestaan.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5" role="doc-endnote"><p>Voor hoogwaardig technisch revisietekenwerk waarvoor <em>ObjectARX</em> entiteiten van grote waarde is kan het zinnig zijn deze <em>ObjectARX</em> entiteiten te behouden. In deze gevallen beslist de RVB-opdrachtgever over de wijze van aanlevering.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6" role="doc-endnote"><p>Met CAD-bestand wordt in deze Specificatie altijd een bestand bedoeld wat technisch revisietekenwerk bevat en een AutoCADbestand is zoals omschreven in § 1.1.1 Bestandsformaat.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7" role="doc-endnote"><p>Voor hoogwaardig technisch revisietekenwerk waarvoor database koppelingen van grote waarde is kan het zinnig zijn deze database koppelingen te behouden. In deze gevallen beslist de RVB-opdrachtgever over de wijze van aanlevering.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8" role="doc-endnote"><p>In sommige andere normen ook wel 'doorsnijdingsvlak' genoemd.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9" role="doc-endnote"><p>Als daarmee een tekening ontstaat die niet goed afleesbaar is en tot ongewenste bouwkundige interpretaties aanleiding geeft, dan mag het projectievlak op een andere hoogte gelegd worden (ook lokaal). In deze gevallen wordt in de tekening een toelichtende tekst toegevoegd.<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10" role="doc-endnote"><p>Waar is deze Specificatie het begrip 'bouwwerk' gebruikt wordt, wordt het begrip 'omgevingselement' bedoeld. Zie Bijlage 1:</p>
+<p>Definities voor de betekenis van en het onderscheid tussen deze begrippen.<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn11" role="doc-endnote"><p>Met dit laatste wordt bedoeld dat als er in een doorsnede een gevel wordt weergegeven (in het projectievlak wordt ook een gevel van het werk geprojecteerd), deze gevel moet worden getekend volgens de eisen die er aan gevels worden gesteld in deze Specificatie.<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn12" role="doc-endnote"><p>Met dit laatste wordt bedoeld dat als er in een gevel een doorsnede wordt weergegeven (het projectievlak doorsnijdt ook het werk zelf), deze doorsnede moet worden getekend volgens de eisen die er aan doorsneden worden gesteld in deze Specificatie.<a href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn13" role="doc-endnote"><p>Uitgave van de Bond van Nederlandse Architecten, Amsterdam; ISBN-10: 90-807626-3-6<a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn14" role="doc-endnote"><p>Het hoofdonderwerp is de belangrijkste zoeksleutel binnen een discipline. De beschrijving hiervan moet specifiek genoeg zijn.</p>
+<p>Bijvoorbeeld: ‘elektrotechnische installatie’ is te generiek en wordt al aangegeven door de letter van de discipline. Woorden als 'definitief', 'nieuw', 'diverse' of 'revisie' zijn niet toegestaan. Goede voorbeelden zijn: Plattegrond, Gevels, Doorsneden, Lichtinstallatie, Terreininstallatie, Veiligheidsvoorzieningen, CV- en ventilatie-installatie.<a href="#fnref14" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn15" role="doc-endnote"><p>Binnen AutoCAD bestaan er twee typen <em>external reference</em>: <em>overlay</em> en <em>attached</em>. Het verschil tussen deze twee types is het gedrag bij meervoudige innesteling. In tegenstelling tot het <em>Xref</em> type <em>attached</em> wordt een <em>external reference</em> van het type <em>overlay</em> niet ‘meegenomen’ wanneer het bestand met de betreffende <em>Xref</em> verwijzingen op zijn beurt weer d.m.v. <em>Xref</em> wordt gekoppeld wordt aan een volgend bestand.<a href="#fnref15" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn16" role="doc-endnote"><p>Voor vloeren is dit de bovenzijde van de afgewerkte vloer.<a href="#fnref16" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn17" role="doc-endnote"><p>Uitgave van de Bond van Nederlandse Architecten, Amsterdam; ISBN-10: 90-807626-3-6<a href="#fnref17" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn18" role="doc-endnote"><p>Als het project uitgevoerd wordt op basis van Output Specificaties, zoals door het RVB in bepaalde contractsvormen gehanteerd, dan wordt hier de ‘OS functienaam 2D’ voor gebruikt. In deze context wordt met functienaam de naam bedoeld van een individueel ruimtetype (functie) in de ‘ruimteboom’ van de Output Specificatie.<a href="#fnref18" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn19" role="doc-endnote"><p>Uitgave van de Bond van Nederlandse Architecten, Amsterdam; ISBN-10: 90-807626-3-6<a href="#fnref19" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn20" role="doc-endnote"><p>Belangrijk is dat er bij naastliggende deeltekeningen slechts beperkte overlap zit in het deel wat in de ene tekening wordt weergegeven en het deel wat in de andere –naastliggende- tekening wordt weergegeven.<a href="#fnref20" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn21" role="doc-endnote"><p>Zie § 1.2 Levering bronbestanden<a href="#fnref21" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn22" role="doc-endnote"><p>Een lege tekeninglijst met daarin een overzicht van de te registreren kenmerken is verkrijgbaar op de website van het</p>
+<p>Rijksvastgoedbedrijf samen met deze Specificatie (versie nummer van de tekeninglijst correspondeert met het versie nummer van de Specificatie). Deze tekeninglijst wordt gebruikt voor importeren van de aangeleverde bestanden met de metadata in de documentbeheeromgeving van het Rijksvastgoedbedrijf. Gebruik en levering van andere tekeningenlijsten is niet toegestaan.<a href="#fnref22" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn23" role="doc-endnote"><p>Bij aanleveren van revisietekenwerk door het RVB levert het RVB een tekeninglijst mee van alle bestanden/tekeningen technisch revisietekenwerk onder de Bouwwerkcode in zijn documentbeheeromgeving. Bij aanmaak van nieuwe bestanden binnen een bestaande set revisietekenwerk bestanden zorgt de leverancier aan de hand van deze lijst voor unieke DWG-nummers in deze nieuwe bestandsnamen.<a href="#fnref23" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn24" role="doc-endnote"><p>Een lege tekeninglijst met daarin een overzicht van de te registreren kenmerken is verkrijgbaar op de website van het RVB samen met deze Specificatie.<a href="#fnref24" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn25" role="doc-endnote"><p>Geen bouwlaag. 26 Als alle letters van het alfabet gebruikt zijn, dan worden dubbele hoofdletters AA, BB, CC enzovoort gebruikt.<a href="#fnref25" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn26" role="doc-endnote"><p>Van belang is hier dat de RVB-opdrachtgever -in overleg met alle leveranciers van revisietekenwerk- een datum vaststelt voor de weer te geven toestand met betrekking tot alle bij het project betrokken disciplines. Veelal zal dit een datum zijn waarop het RVBobject na oplevering 'in rust' is, bijvoorbeeld de datum van de tweede oplevering. 28 Het gaat hier dus niet om de aanmaakdatum (is datum aanmaak van een tekening) of de revisiedatum (is datum dat de tekening voor het laatst is bijgewerkt). Alleen de datum van de weergegeven toestand is hier voor het RVB van belang.<a href="#fnref26" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
