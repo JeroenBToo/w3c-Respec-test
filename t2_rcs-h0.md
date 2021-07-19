@@ -1,5 +1,5 @@
 # Cover
-<img src="image001.jpg" />
+<img src="image001.jpg" width=50% />
 
 # Voorwoord 
 
