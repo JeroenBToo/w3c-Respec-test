@@ -1,5 +1,5 @@
 # Cover
-<img src="media/image1.jpg" style="width:8.25in;height:11.66333in" />
+<img src="image002.jpg" style="width:8.25in;height:11.66333in" />
 
 # Voorwoord 
 
@@ -35,7 +35,7 @@ aangegeven
 
 **Leeswijzer**
 
-<img src="media/image2.png" style="width:3.08472in;height:2.91944in" />Technisch
+<img src="image005.gif" style="width:3.08472in;height:2.91944in" />Technisch
 revisietekenwerk wordt geleverd in een CAD-bestand. CAD-bestanden zijn
 te beschrijven in vier dimensies: structuur, inhoud, visualisatie en
 opslag. Bij structuur gaat het om de samenhang, en daarmee de betekenis,
