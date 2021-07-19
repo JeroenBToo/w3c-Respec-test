@@ -206,7 +206,7 @@ lijndikte, lijntype en arcering volgens de onderstaande tabel:
 *Tabel 1: lijndikte, lijntype en arcering gekoppeld aan positie van
 bouwdelen ten opzichte van het projectievlak*
 
-> <img src="image015.png" />
+> <img src="image015.png" width=100% />
 
 *Figuur 4: bouwdeelaanzicht (binnen gele uitsnede), bouwdeeldoorsnijding
 (groene uitsnede) en bouwdeelprojectie (rode uitsnede) gesuperposeerd in
