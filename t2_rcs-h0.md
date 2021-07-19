@@ -1,3 +1,4 @@
+# Cover
 <img src="media/image1.jpg" style="width:8.25in;height:11.66333in" />
 
 # Voorwoord 
