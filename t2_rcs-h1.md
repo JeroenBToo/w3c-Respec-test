@@ -117,7 +117,7 @@ het *WCS* in het CAD-bestand worden deze loodrechte projecties van
 bouwdelen getekend. In het tekenwerk wordt uitsluitend gebruik gemaakt
 van horizontale (bijvoorbeeld plattegronden) en verticale
 projectievlakken (bijvoorbeeld doorsneden en gevels). Ten opzichte van
-het projectievlak zijn er voor ieder bouwdeel drie mogelijke posities:
+het projectievlak zijn er voor ieder [=bouwdeel=] drie mogelijke posities:
 
 1.  <u>Achter/onder</u> het projectievlak: het componentaanzicht;
 
@@ -285,7 +285,7 @@ basiseisen gesteld:
     eerste twee cijfers van de
 
 > NL/SfB elementcode (zonder haakje) van de elementgroep waartoe het
-> bouwdeel behoort én de bijbehorende omschrijving, dit met de volgende
+> [=bouwdeel=] behoort én de bijbehorende omschrijving, dit met de volgende
 > syntax: \[NL/SfB elementcode\]\[spatie\]\[NL/SfB omschrijving\] (de
 > elementgroepen zijn gedefinieerd in tabel 1 van de publicatie ‘NL/SfB
 > tabellen 2005 inclusief herziene elementenmethode '91'[13]), de
