@@ -136,15 +136,18 @@ bouwwerk getoond en worden het bouwdeelaanzicht, de -doorsnijding en de
 -projectie in de daarbij horende plattegrond getoond in de figuren 1, 2
 en 3.
 
-> <img src="media/image3.jpg" style="width:6.53743in;height:4.26623in" />
+> <img src="image006.jpg" />
+<img src="image007.jpg" />
+<img src="image008.jpg" />
 
 *Figuur 1: 3D-model van een kap*
 
-<img src="media/image6.jpg" style="width:4.68681in;height:9.42301in" />*Figuur
-2: projectievlak aangebracht: lichtgroen vlak voor bouwdeeldoorsnijding,
+<img src="image010.jpg" />
+<img src="image011.jpg" />
+*Figuur 2: projectievlak aangebracht: lichtgroen vlak voor bouwdeeldoorsnijding,
 roze voor bouwdeelprojectie.*
 
-<img src="media/image8.jpg" style="width:6.56736in;height:8.86597in" />
+<img src="image013.jpg" />
 
 *Figuur 3: projectievlak aangebracht: lichtgeel vlak voor
 bouwdeelaanzicht, lichtgroen voor bouwdeeldoorsnijding, roze voor
@@ -203,7 +206,7 @@ lijndikte, lijntype en arcering volgens de onderstaande tabel:
 *Tabel 1: lijndikte, lijntype en arcering gekoppeld aan positie van
 bouwdelen ten opzichte van het projectievlak*
 
-> <img src="media/image9.png" style="width:6.47in;height:7.25667in" />
+> <img src="image015.png" />
 
 *Figuur 4: bouwdeelaanzicht (binnen gele uitsnede), bouwdeeldoorsnijding
 (groene uitsnede) en bouwdeelprojectie (rode uitsnede) gesuperposeerd in
