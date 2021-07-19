@@ -174,7 +174,7 @@ het titelblok.
 ## Overzichttekening 
 
 Wanneer binnen een tekening slechts een onderdeel van een bouwwerk
-(bijvoorbeeld een bouwdeel, een ruimte of een detail) afgebeeld wordt
+(bijvoorbeeld een [=bouwdeel=], een ruimte of een detail) afgebeeld wordt
 dan wordt er een overzichttekening geplaatst boven het titelblok. Een
 overzichttekening moet zodanig worden geplaatst dat deze zichtbaar
 blijft op de gevouwen tekening.
