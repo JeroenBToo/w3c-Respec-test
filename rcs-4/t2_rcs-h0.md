@@ -1,5 +1,8 @@
 # Cover
-<img src="../rcs-media/image001.jpg" width=100% />
+<figure id="figure">
+  <img src="../rcs-media/image001.jpg" width=100% alt="RCS kaftontwerp" />
+  <figcaption>RCS kaftontwerp</figcaption>
+</figure>
 
 # Voorwoord 
 
