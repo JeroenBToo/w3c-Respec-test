@@ -108,13 +108,6 @@ Bijlage 2: Tekeningenlijst):
 </tbody>
 </table>
 
-<section class="footnotes" role="doc-endnotes">
-<h2>Footnotes</h2>
-<ol>
-<li id="fn1" role="doc-endnote"><p>Bij aanleveren van revisietekenwerk door het RVB levert het RVB een tekeninglijst mee van alle bestanden/tekeningen technisch revisietekenwerk onder de Bouwwerkcode in zijn documentbeheeromgeving. Bij aanmaak van nieuwe bestanden binnen een bestaande set revisietekenwerk bestanden zorgt de leverancier aan de hand van deze lijst voor unieke DWG-nummers in deze nieuwe bestandsnamen.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section>
-
 Syntactisch heeft de naam van het CAD-bestand de volgende opbouw:
 
 > \<Bouwwerkcode>\_\<Discipline>\_\<Bouwlaagnummer>\_\<DWG-nummer>\<.dwg>
@@ -142,3 +135,9 @@ vastgelegd. In Bijlage 2: Tekeningenlijst is aangegeven welke kenmerken
 uit de tekeningenlijst moeten corresponderen met een kenmerk in het
 desbetreffende titelblok.
 
+<section class="footnotes" role="doc-endnotes">
+<h2>Footnotes</h2>
+<ol>
+<li id="fn1" role="doc-endnote"><p>Bij aanleveren van revisietekenwerk door het RVB levert het RVB een tekeninglijst mee van alle bestanden/tekeningen technisch revisietekenwerk onder de Bouwwerkcode in zijn documentbeheeromgeving. Bij aanmaak van nieuwe bestanden binnen een bestaande set revisietekenwerk bestanden zorgt de leverancier aan de hand van deze lijst voor unieke DWG-nummers in deze nieuwe bestandsnamen.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>

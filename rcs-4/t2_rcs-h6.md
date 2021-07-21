@@ -489,6 +489,8 @@ Geef de tekeningenlijst een herkenbare bestandsnaam.
 </tbody>
 </table>
 
+*Tabel 2: kenmerken in de tekeningenlijst en/of het titelblok*
+
 <section class="footnotes" role="doc-endnotes">
 <h2>Footnotes</h2>
 <ol>
@@ -496,6 +498,3 @@ Geef de tekeningenlijst een herkenbare bestandsnaam.
 <li id="fn2" role="doc-endnote"><p>Van belang is hier dat de RVB-opdrachtgever -in overleg met alle leveranciers van revisietekenwerk- een datum vaststelt voor de weer te geven toestand met betrekking tot alle bij het project betrokken disciplines. Veelal zal dit een datum zijn waarop het RVBobject na oplevering 'in rust' is, bijvoorbeeld de datum van de tweede oplevering. 28 Het gaat hier dus niet om de aanmaakdatum (is datum aanmaak van een tekening) of de revisiedatum (is datum dat de tekening voor het laatst is bijgewerkt). Alleen de datum van de weergegeven toestand is hier voor het RVB van belang.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
-
-*Tabel 2: kenmerken in de tekeningenlijst en/of het titelblok*
-
