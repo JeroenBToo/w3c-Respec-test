@@ -19,42 +19,27 @@ voorwaarden:
 
 -   de bestanden zijn altijd gebaseerd op een metrisch *template*;
 
--   de bestanden zijn niet beveiligd door gebruik te maken van enige
-    vorm van encryptie;
+-   de bestanden zijn niet beveiligd door gebruik te maken van enige vorm van encryptie;
 
 -   de bestanden bevatten geen ‘OLE-objecten’;
 
--   de bestanden bevatten geen *dictionaries*, behalve die door AutoCAD
-    zélf automatisch worden gegenereerd;
+-   de bestanden bevatten geen *dictionaries*, behalve die door AutoCAD zélf automatisch worden gegenereerd;
 
 -   de bestanden bevatten geen gerasterde entiteiten[4];
 
--   de bestanden bevatten geen, in het bestand geïntegreerde, *LISP-* of
-    *VBA*-routines;
+-   de bestanden bevatten geen, in het bestand geïntegreerde, *LISP-* of *VBA*-routines;
 
--   de bestanden bevatten geen entiteiten waaraan ‘hyperlinks’ gekoppeld
-    zijn;
+-   de bestanden bevatten geen entiteiten waaraan ‘hyperlinks’ gekoppeld zijn;
 
--   de bestanden bevatten geen entiteiten gegenereerd en ondersteund
-    door *ObjectARX*-applicaties[5] (of: *proxy*-objecten), anders dan
-    door AutoCAD zèlf automatisch gegenereerde (informatie over deze
-    ‘add-ons’ is niet aanwezig en de samengestelde objecten zijn correct
-    vertaald naar AutoCADbasisentiteiten en de koppeling naar de
-    gebruikte ‘add-on’ is verbroken).
+-   de bestanden bevatten geen entiteiten gegenereerd en ondersteund door *ObjectARX*-applicaties[5] (of: *proxy*-objecten), anders dan door AutoCAD zèlf automatisch gegenereerde (informatie over deze ‘add-ons’ is niet aanwezig en de samengestelde objecten zijn correct vertaald naar AutoCADbasisentiteiten en de koppeling naar de gebruikte ‘add-on’ is verbroken).
 
 ### Database koppelingen 
 
-De CAD-bestanden[6] voor technisch revisietekenwerk bevatten geen
-koppelingen naar externe databases[7]. Alle restinformatie binnen deze
-CAD-bestanden, als gevolg van dergelijke 'databaseconnectivity' uit het
-verleden, is niet meer aanwezig.
+De CAD-bestanden[6] voor technisch revisietekenwerk bevatten geen koppelingen naar externe databases[7]. Alle restinformatie binnen deze CAD-bestanden, als gevolg van dergelijke 'databaseconnectivity' uit het verleden, is niet meer aanwezig.
 
 ### Systeemvariabelen 
 
-Binnen elk CAD-bestand zijn er *system variables* vastgelegd. Deze
-systeemvariabelen zijn van invloed op diverse onderdelen binnen deze
-bestanden. De systeemvariabelen hebben de waarden volgens de
-onderstaande tabel.
+Binnen elk CAD-bestand zijn er *system variables* vastgelegd. Deze systeemvariabelen zijn van invloed op diverse onderdelen binnen deze bestanden. De systeemvariabelen hebben de waarden volgens de onderstaande tabel.
 
 <table>
 <colgroup>
@@ -136,7 +121,7 @@ bouwwerk getoond en worden het bouwdeelaanzicht, de -doorsnijding en de
 -projectie in de daarbij horende plattegrond getoond in de figuren 1, 2
 en 3.
 
-> <img src="../rcs-media/image006.jpg" />
+<img src="../rcs-media/image006.jpg" />
 <img src="../rcs-media/image007.jpg" />
 <img src="../rcs-media/image008.jpg" />
 
@@ -144,8 +129,8 @@ en 3.
 
 <img src="../rcs-media/image010.jpg" />
 <img src="../rcs-media/image011.jpg" />
-*Figuur 2: projectievlak aangebracht: lichtgroen vlak voor bouwdeeldoorsnijding,
-roze voor bouwdeelprojectie.*
+
+*Figuur 2: projectievlak aangebracht: lichtgroen vlak voor bouwdeeldoorsnijding, roze voor bouwdeelprojectie.*
 
 <img src="../rcs-media/image013.jpg" />
 
@@ -153,10 +138,7 @@ roze voor bouwdeelprojectie.*
 bouwdeelaanzicht, lichtgroen voor bouwdeeldoorsnijding, roze voor
 bouwdeelprojectie.*
 
-Om in het CAD-bestand -en in de daarin aanwezige tekeningen- de positie
-van bouwdelen ten opzichte van het projectievlak duidelijk herkenbaar te
-maken, wordt er gebruik gemaakt van verschillende combinaties van
-lijndikte, lijntype en arcering volgens de onderstaande tabel:
+Om in het CAD-bestand -en in de daarin aanwezige tekeningen- de positie van bouwdelen ten opzichte van het projectievlak duidelijk herkenbaar te maken, wordt er gebruik gemaakt van verschillende combinaties van lijndikte, lijntype en arcering volgens de onderstaande tabel:
 
 <table style="width:100%;">
 <colgroup>
