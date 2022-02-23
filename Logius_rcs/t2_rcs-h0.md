@@ -1,6 +1,3 @@
-# Cover
-<img src="../rcs-media/image001.jpg" width=100% />
-
 # Voorwoord 
 
 Het Rijksvastgoedbedrijf is de vastgoedorganisatie van en voor de

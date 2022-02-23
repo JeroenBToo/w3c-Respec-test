@@ -94,7 +94,7 @@ var respecConfig = {
   }
   ],
   // The github option allows you associate your specification with a repository on GitHub.
-  github: "https://github.com/Logius-standaarden/Template-Repository",
+  github: "https://github.com/JeroenBToo/w3c-Respec-test",
 
   // The URL of your test suite, gets included in the specification's headers.
   // testSuiteURI: "https://portaal.digikoppeling.nl/CV/home.html",
@@ -187,5 +187,5 @@ var respecConfig = {
 
   // If you need to include a one-off reference that is not present in the SpecRef database or 
   // if you need to override an existing reference with specific content, then you can use this configuration option.
-  // localBiblio: {}
-;
+  localBiblio: {}
+};
