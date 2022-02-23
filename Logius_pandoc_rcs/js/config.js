@@ -132,7 +132,7 @@ var respecConfig = {
 
   // if you use a single document for your spec, which uses more than one markdown H1 header, e.g. '# inleiding'
   // this configuration can be set to make sure that the all H1 headers and navigation bars are retained as H1 headers
-  nl_markdownSplitH1sections: true,
+  nl_markdownSplitH1sections: false,
 
   // in some cases the Repository of a Specification document and the Issue- and PR bases are split
   // thi scan be configured below
