@@ -1,5 +1,0 @@
-# Documentbeheer
-
-| Datum | Versie | Auteur |
-|-------|--------|--------|
-|||
