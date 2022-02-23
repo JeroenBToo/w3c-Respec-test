@@ -187,5 +187,5 @@ var respecConfig = {
 
   // If you need to include a one-off reference that is not present in the SpecRef database or 
   // if you need to override an existing reference with specific content, then you can use this configuration option.
-  localBiblio: {}
+  // localBiblio: {}
 };
