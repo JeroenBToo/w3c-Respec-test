@@ -32,7 +32,7 @@ aangegeven
 
 **Leeswijzer**
 
-<img src="../rcs-media/image004.png" />Technisch
+<img src="../rcs-media/image004.png" alt="Leeswijzer" />Technisch
 revisietekenwerk wordt geleverd in een CAD-bestand. CAD-bestanden zijn
 te beschrijven in vier dimensies: structuur, inhoud, visualisatie en
 opslag. Bij structuur gaat het om de samenhang, en daarmee de betekenis,

@@ -89,7 +89,7 @@ var respecConfig = {
   // this can be simple or more elaborated
   authors: [{
     name: "Rijksvastgoedbedrijf",
-    url: "https://rijksvastgoedbedrijf.nl",
+    // url: "https://rijksvastgoedbedrijf.nl",
     mailto: "postbus.rvb.bim@rijksoverheid.nl",
   }
   ],

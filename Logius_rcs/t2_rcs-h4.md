@@ -107,16 +107,14 @@ Bijlage 2: Tekeningenlijst):
 </tr>
 </tbody>
 </table>
+
 <section class="footnotes" role="doc-endnotes">
-<hr />
-<ol>
-<li id="fn1" role="doc-endnote"><p>Bij aanleveren van revisietekenwerk door het RVB levert het RVB een tekeninglijst mee van alle bestanden/tekeningen technisch revisietekenwerk onder de Bouwwerkcode in zijn documentbeheeromgeving. Bij aanmaak van nieuwe bestanden binnen een bestaande set revisietekenwerk bestanden zorgt de leverancier aan de hand van deze lijst voor unieke DWG-nummers in deze nieuwe bestandsnamen.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
+<li id="fn1" role="doc-endnote"><p>Bij aanleveren van revisietekenwerk door het RVB levert het RVB een tekeninglijst mee van alle bestanden/tekeningen technisch revisietekenwerk onder de Bouwwerkcode in zijn documentbeheeromgeving. Bij aanmaak van nieuwe bestanden binnen een bestaande set revisietekenwerk bestanden zorgt de leverancier aan de hand van deze lijst voor unieke DWG-nummers in deze nieuwe bestandsnamen.<a href="#fnref1" class="footnote-back" role="doc-backlink">︎back</a></p></li>
 </section>
 
 Syntactisch heeft de naam van het CAD-bestand de volgende opbouw:
 
-#### \<Bouwwerkcode>\_\<Discipline>\_\<Bouwlaagnummer>\_\<DWG-nummer>\<.dwg> 
+*\<Bouwwerkcode>\_\<Discipline>\_\<Bouwlaagnummer>\_\<DWG-nummer>\<.dwg>*
 
 (een voorbeeld van een bestandsnaam is: 105451G02_E\_01_020.dwg).
 

@@ -136,18 +136,19 @@ bouwwerk getoond en worden het bouwdeelaanzicht, de -doorsnijding en de
 -projectie in de daarbij horende plattegrond getoond in de figuren 1, 2
 en 3.
 
-> <img src="../rcs-media/image006.jpg" />
-<img src="../rcs-media/image007.jpg" />
-<img src="../rcs-media/image008.jpg" />
+<img src="../rcs-media/image006.jpg" alt="3D-model van een kap" />
+<img src="../rcs-media/image007.jpg" alt="3D-model van een kap" />
+<img src="../rcs-media/image008.jpg" alt="3D-model van een kap" />
 
 *Figuur 1: 3D-model van een kap*
 
-<img src="../rcs-media/image010.jpg" />
-<img src="../rcs-media/image011.jpg" />
+<img src="../rcs-media/image010.jpg" alt="3D-model met projectievlakken" />
+<img src="../rcs-media/image011.jpg" alt="3D-model met projectievlakken" />
+
 *Figuur 2: projectievlak aangebracht: lichtgroen vlak voor bouwdeeldoorsnijding,
 roze voor bouwdeelprojectie.*
 
-<img src="../rcs-media/image013.jpg" />
+<img src="../rcs-media/image013.jpg" alt="3D-model met projectievlakken" />
 
 *Figuur 3: projectievlak aangebracht: lichtgeel vlak voor
 bouwdeelaanzicht, lichtgroen voor bouwdeeldoorsnijding, roze voor
@@ -206,7 +207,7 @@ lijndikte, lijntype en arcering volgens de onderstaande tabel:
 *Tabel 1: lijndikte, lijntype en arcering gekoppeld aan positie van
 bouwdelen ten opzichte van het projectievlak*
 
-> <img src="../rcs-media/image015.png" width=100% />
+<img src="../rcs-media/image015.png" width=100% alt="2D opbouw aanzicht, doorsnijding, projectie" />
 
 *Figuur 4: bouwdeelaanzicht (binnen gele uitsnede), bouwdeeldoorsnijding
 (groene uitsnede) en bouwdeelprojectie (rode uitsnede) gesuperposeerd in
