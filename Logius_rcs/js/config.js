@@ -89,8 +89,7 @@ var respecConfig = {
   // this can be simple or more elaborated
   authors: [{
     name: "Rijksvastgoedbedrijf",
-    // url: "https://rijksvastgoedbedrijf.nl",
-    mailto: "postbus.rvb.bim@rijksoverheid.nl",
+    url: "mailto:postbus.rvb.bim@rijksoverheid.nl",
   }
   ],
   // The github option allows you associate your specification with a repository on GitHub.

@@ -99,7 +99,7 @@ Bijlage 2: Tekeningenlijst):
 <p>DWG-nummer</p>
 </blockquote></td>
 <td><blockquote>
-<p>Uniek volgnummer binnen de set bestanden met technisch revisietekenwerk binnen één discipline van één Bouwwerkcode<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<p>Uniek volgnummer binnen de set bestanden met technisch revisietekenwerk binnen één discipline van één Bouwwerkcode</p>
 </blockquote></td>
 <td><blockquote>
 <p>020</p>
@@ -108,9 +108,7 @@ Bijlage 2: Tekeningenlijst):
 </tbody>
 </table>
 
-<section class="footnotes" role="doc-endnotes">
-<li id="fn1" role="doc-endnote"><p>Bij aanleveren van revisietekenwerk door het RVB levert het RVB een tekeninglijst mee van alle bestanden/tekeningen technisch revisietekenwerk onder de Bouwwerkcode in zijn documentbeheeromgeving. Bij aanmaak van nieuwe bestanden binnen een bestaande set revisietekenwerk bestanden zorgt de leverancier aan de hand van deze lijst voor unieke DWG-nummers in deze nieuwe bestandsnamen.<a href="#fnref1" class="footnote-back" role="doc-backlink">︎back</a></p></li>
-</section>
+Bij aanleveren van revisietekenwerk door het RVB levert het RVB een tekeninglijst mee van alle bestanden/tekeningen technisch revisietekenwerk onder de Bouwwerkcode in zijn documentbeheeromgeving. Bij aanmaak van nieuwe bestanden binnen een bestaande set revisietekenwerk bestanden zorgt de leverancier aan de hand van deze lijst voor unieke DWG-nummers in deze nieuwe bestandsnamen.
 
 Syntactisch heeft de naam van het CAD-bestand de volgende opbouw:
 
