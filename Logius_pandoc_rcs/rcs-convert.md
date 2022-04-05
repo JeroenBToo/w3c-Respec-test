@@ -30,7 +30,7 @@ aanvullende en/of afwijkende eisen gesteld worden, wordt dit specifiek
 aangegeven
 
 <img src=".//media/image7.png"
-style="width:3.08472in;height:2.91944in" alt="leeswijzer" />Leeswijzer
+style="width:3.08472in;height:2.91944in" />Leeswijzer
 
 Technisch revisietekenwerk wordt geleverd in een CAD-bestand.
 CAD-bestanden zijn te beschrijven in vier dimensies: structuur, inhoud,
